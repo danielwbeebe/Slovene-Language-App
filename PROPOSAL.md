@@ -8,7 +8,9 @@ Slovolingo is an app modeled after Duolingo which allows users to learn [Slovene
 
 Each new user will need to register. Visiting users can login.
 
-After logging in, the user will be directed to the main page, which contains the 'tree' of levels for learning Slovene. Moving up each level requires taking a quiz until the user has passed. After taking the quiz for level 1, the quiz for level 2 will become available. The same for levels 2, 3, etc. Any previously-completed quizzes can also be taken again for practice.
+After logging in, the user will be directed to the main page, which contains the 'tree' of levels for learning Slovene. Moving up each level requires taking a quiz until the user has passed. Each quiz is multiple choice, with a word in English shown and 3 words in Slovene to choose from as the proper translation. When the User clicks on the right word, an audio clip pronouncing the word will play.
+
+After taking the quiz for level 1, the quiz for level 2 will become available. The same for levels 2, 3, etc. Any previously-completed quizzes can also be taken again for practice.
 
 The app will include 5 levels, teaching/testing the user on: (1) basics, (2) greetings, (3) family, (4) numbers, and (5) time.
 
