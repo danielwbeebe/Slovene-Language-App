@@ -42,3 +42,17 @@ Slovolingo will be made using React and Express. The app will use PostgreSQL for
 * Phase -1 (9/17): CSS Style 
 * Phase 0 (MVP) (9/18): Deploy on Heroku
 * Phase 1 (9/19): Improvements to style/substance
+
+## Resources
+
+[Duolingo - for style]("https://www.duolingo.com/")
+
+[Slovenian101]("http://www.101languages.net/slovenian/slovenian-vocabulary-lessons/")
+
+[Pirnat-Greenberg, Colloquial Slovene, The Complete Course for Beginners]("https://www.amazon.com/Colloquial-Slovene-Complete-Course-Beginners/dp/0415559820")
+
+[Colloguial Languages Site]("http://www.routledgetextbooks.com/textbooks/colloquial/language/slovene.php")
+
+[Learn Slovenian]("http://learnslovenian.net/")
+
+[50 Languages Site]("http://www.goethe-verlag.com/book2/EN/ENSL/ENSL003.HTM")
