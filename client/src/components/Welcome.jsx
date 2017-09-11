@@ -6,15 +6,15 @@ const Welcome = () => {
   return (
     <div className="welcome">
 
-      <div className="header">
+      <div className="welcome-header">
        <h1>slavolingo</h1>
       </div>
 
-      <div className="main">
+      <div className="welcome-main">
         <h1>This is the Welcome Page</h1>
       </div>
 
-      <div className="footer">
+      <div className="welcome-footer">
        <h1>Created By Dan</h1>
       </div>
 
