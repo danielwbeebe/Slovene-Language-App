@@ -10,9 +10,10 @@ import Welcome from './components/Welcome';
 import Register from './components/Register';
 import Login from './components/Login';
 
-// import components for using the app
+// import components for using the app and taking quizzes
 import Main from './components/Main';
 import AboutApp from './components/AboutApp';
+import QuizOne from './components/QuizOne';
 
 // app.js used to route through app and maintain auth while doing so
 class App extends Component {
@@ -97,6 +98,7 @@ class App extends Component {
           <Route exact path="/login" render={() => <Login />} />
           <Route exact path="/main" render={() => <Main />} />
           <Route exact path="/about" render={() => <AboutApp />} />
+          <Route exact path="/quizone" render={() => <QuizOne />} />
         </div>
       </Router>
     );
