@@ -10,16 +10,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 15vh;
+  min-height: 10vh;
   background-color: #1CB0F6;
   color: black;
 }
 
 .welcome-main {
   display: flex;
-  min-height: 75vh;
+  min-height: 80vh;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: #1CB0F6;
 }
 
