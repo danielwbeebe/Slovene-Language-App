@@ -15,8 +15,7 @@ const Register = () => {
       </div>
 
       <div className="register-main">
-
-
+        <h1>Register Page</h1>
       </div>
 
       <div className="register-footer">

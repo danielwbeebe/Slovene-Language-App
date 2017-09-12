@@ -6,6 +6,8 @@ import { Redirect } from 'react-router';
 import Welcome from './components/Welcome';
 import Register from './components/Register';
 
+import Main from './components/Main';
+
 import axios from 'axios';
 
 class App extends Component {
@@ -88,6 +90,7 @@ class App extends Component {
         <div className="App">
           <Route exact path="/" render={() => <Welcome />} />
           <Route exact path="/register" render={() => <Register />} />
+          <Route exact path="/main" render={() => <Main />} />
         </div>
       </Router>
     );
