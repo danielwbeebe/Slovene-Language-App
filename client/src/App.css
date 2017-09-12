@@ -11,8 +11,8 @@
   align-items: center;
   justify-content: center;
   min-height: 10vh;
-  background-color: #1CB0F6;
-  color: black;
+  background-color: #0C4982;
+  color: white;
 }
 
 .welcome-main {
@@ -21,7 +21,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #1CB0F6;
+  background-color: #0C4982;
+  color: white;
 }
 
 .welcome-footer {
@@ -29,6 +30,6 @@
   align-items: center;
   justify-content: center;
   min-height: 10vh;
-  background-color: #1CB0F6;
-  color: #E9E7DA;
+  background-color: #0C4982;
+  color: white;
 }

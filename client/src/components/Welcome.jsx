@@ -11,11 +11,11 @@ const Welcome = () => {
       </div>
 
       <div className="welcome-main">
-        <h1>This is the Welcome Page</h1>
+        <h1>Learn the Slovene language for free. Forever.</h1>
       </div>
 
       <div className="welcome-footer">
-       <h1>Created By Dan</h1>
+       <h2>Created By Dan</h2>
       </div>
 
     </div>
