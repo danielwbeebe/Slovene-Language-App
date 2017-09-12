@@ -21,7 +21,7 @@ const Welcome = () => {
       <div className="welcome-main">
 
         <div className="welcome-left">
-          <h2>Image Here</h2>
+          <img src="/slovenia-lake.png" width="300" height="300"></img>
         </div>
 
         <div className="welcome-right">
