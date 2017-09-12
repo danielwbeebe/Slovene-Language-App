@@ -1,17 +1,20 @@
+// imports necessary for app to run
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import { Redirect } from 'react-router';
+import axios from 'axios';
 
+// import components for logging in
 import Welcome from './components/Welcome';
 import Register from './components/Register';
 import Login from './components/Login';
 
+// import components for using the app
 import Main from './components/Main';
 import AboutApp from './components/AboutApp';
 
-import axios from 'axios';
-
+// app.js used to route through app and maintain auth while doing so
 class App extends Component {
 
   constructor(){
