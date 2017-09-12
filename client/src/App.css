@@ -84,6 +84,70 @@
   color: white;
 }
 
+/*register page*/
+
+.register-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  min-height: 10vh;
+  background-color: #625391;
+  color: white;
+}
+
+.register-main {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.register-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background-color: #625391;
+  color: white;
+}
+
+.sign-up {
+  padding-top: 15vh;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+
+.register-space {
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+.register-form-button {
+  color: white;
+  background-color: #F88017;
+  width: 200px;
+  border-radius: 35px;
+  font-size: 20px;
+}
+
+.register-form-button:hover {
+  color: #F88017;
+  background-color: white;
+}
 
 /*font sizes*/
 h1 {
