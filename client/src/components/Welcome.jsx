@@ -9,7 +9,7 @@ const Welcome = () => {
       <div className="welcome-header">
 
         <div className="header-message">
-          <h1>slavolingo</h1>
+          <h1>slovolingo</h1>
         </div>
 
         <div className="login-button">
@@ -21,17 +21,17 @@ const Welcome = () => {
       <div className="welcome-main">
 
         <div className="welcome-left">
-          <img src="/slovenia-lake.png" width="300" height="300"></img>
-        </div>
-
-        <div className="welcome-right">
           <div className="welcome-message">
-            <h1>Learn Slovene for free. Forever.</h1>
+            <h1>Learn Slovene! It's fun!</h1>
           </div>
 
           <div className="register-button">
-            <h3>Get Started</h3>
+            <h3>Register</h3>
           </div>
+        </div>
+
+        <div className="welcome-right">
+          <img src="/slovenia-lake.png" width="300" height="300"></img>
         </div>
 
       </div>

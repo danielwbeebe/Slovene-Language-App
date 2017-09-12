@@ -4,7 +4,7 @@
 
 ## What is 'Slovolingo'?
 
-Slovolingo is an app modeled after Duolingo which allows users to learn [Slovene, the language of Slovenia](https://en.wikipedia.org/wiki/Slovene_language).
+Slovolingo is an app inspired by Duolingo which allows users to learn [Slovene, the language of Slovenia](https://en.wikipedia.org/wiki/Slovene_language).
 
 Each new user will need to register. Visiting users can login.
 

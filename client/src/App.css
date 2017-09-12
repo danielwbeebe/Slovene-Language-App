@@ -31,18 +31,18 @@
   color: white;
 }
 
-.welcome-left {
+.welcome-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.welcome-left img {
+.welcome-right img {
   border-radius: 50%;
 }
 
-.welcome-right {
+.welcome-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
