@@ -5,8 +5,10 @@ import { Redirect } from 'react-router';
 
 import Welcome from './components/Welcome';
 import Register from './components/Register';
+import Login from './components/Login';
 
 import Main from './components/Main';
+import AboutApp from './components/AboutApp';
 
 import axios from 'axios';
 
@@ -61,7 +63,6 @@ class App extends Component {
       redirecting: path,
     })
     console.log(`The path is: ` + path)
-
   }
 
   logOut() {
@@ -90,7 +91,9 @@ class App extends Component {
         <div className="App">
           <Route exact path="/" render={() => <Welcome />} />
           <Route exact path="/register" render={() => <Register />} />
+          <Route exact path="/login" render={() => <Login />} />
           <Route exact path="/main" render={() => <Main />} />
+          <Route exact path="/about" render={() => <AboutApp />} />
         </div>
       </Router>
     );
