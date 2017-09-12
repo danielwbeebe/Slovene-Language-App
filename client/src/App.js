@@ -16,6 +16,7 @@ import AboutApp from './components/AboutApp';
 import QuizOne from './components/QuizOne';
 import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
+import QuizFour from './components/QuizFour';
 
 // app.js used to route through app and maintain auth while doing so
 class App extends Component {
@@ -103,6 +104,7 @@ class App extends Component {
           <Route exact path="/quizone" render={() => <QuizOne />} />
           <Route exact path="/quiztwo" render={() => <QuizTwo />} />
           <Route exact path="/quizthree" render={() => <QuizThree />} />
+          <Route exact path="/quizfour" render={() => <QuizFour />} />
         </div>
       </Router>
     );
