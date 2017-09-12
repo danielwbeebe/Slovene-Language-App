@@ -70,3 +70,56 @@
   background-color: #625391;
   color: white;
 }
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+
+  .welcome-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .welcome-main {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+}

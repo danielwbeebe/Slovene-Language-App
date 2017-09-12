@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import Welcome from './components/Welcome';
+import Register from './components/Register';
 
 import axios from 'axios';
 
@@ -86,6 +87,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" render={() => <Welcome />} />
+          <Route exact path="/register" render={() => <Register />} />
         </div>
       </Router>
     );
