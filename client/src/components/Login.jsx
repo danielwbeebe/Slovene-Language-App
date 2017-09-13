@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 class Login extends Component{
 
+// method to handle login of returning user
   handleInputChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -11,6 +12,7 @@ class Login extends Component{
     });
   }
 
+// method to render page with form for login
   render(){
     return (
       <div className="login">

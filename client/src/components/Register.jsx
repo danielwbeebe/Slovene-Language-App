@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 class Register extends Component{
 
 // method to handle addition of new user
-
   handleInputChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
