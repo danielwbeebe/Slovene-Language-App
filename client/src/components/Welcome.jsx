@@ -12,9 +12,7 @@ const Welcome = () => {
           <h1>slovolingo</h1>
         </div>
 
-        <div className="login-button">
-          <h4>Login</h4>
-        </div>
+        <Link to="/login"><button className="login-button"><p>Login</p></button></Link>
 
       </div>
 
@@ -25,9 +23,8 @@ const Welcome = () => {
             <h1>Learn Slovene! It's fun!</h1>
           </div>
 
-          <div className="register-button">
-            <h3>Register</h3>
-          </div>
+          <Link to="/register"><button className="register-button"><h4>Sign Up</h4></button></Link>
+
         </div>
 
         <div className="welcome-right">
