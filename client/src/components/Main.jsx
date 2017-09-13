@@ -15,7 +15,20 @@ const Main = () => {
       </div>
 
       <div className="main-main">
-        <h1>Main Page </h1>
+
+        <div classname="main-left">
+          <h1>Slovene Tests</h1>
+        </div>
+
+        <div classname="main-right">
+          <div className="main-upper-right">
+            <h1>Welcome, User</h1>
+          </div>
+          <div className="main-lower-right">
+            <h1>Random Word to Learn</h1>
+          </div>
+        </div>
+
       </div>
 
       <div className="main-footer">
