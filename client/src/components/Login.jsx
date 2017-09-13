@@ -1,29 +1,50 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
-const Login = () => {
+class Login extends Component{
 
-  return (
-    <div className="login">
+  handleInputChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    this.setState({
+      [name]: value,
+    });
+  }
 
-      <div className="login-header">
+  render(){
+    return (
+      <div className="login">
 
-        <div className="login-message">
-          <h1>slovolingo</h1>
+        <div className="login-header">
+
+          <div className="login-message">
+            <h1>slovolingo</h1>
+          </div>
+
+        </div>
+
+        <div className="login-main">
+          <div className="login-title">
+            <h1>Welcome Back!</h1>
+          </div>
+
+          <form action="/auth/login" method='POST' className="login-form">
+            <input type="text" name='userName' placeholder='User Name' className="login-space"
+              onChange={(e)=>this.handleInputChange(e)}/>
+            <input type="password" name='password' placeholder='Password' className="login-space"
+              onChange={(e)=>this.handleInputChange(e)}/>
+            <input onClick={(e)=>this.props.handleLoginSubmit(e,this.state.userName, this.state.password)} type="submit" value='Sign In' className="login-form-button"/>
+          </form>
+
+        </div>
+
+        <div className="login-footer">
+          <h2>Created By Dan Beebe</h2>
         </div>
 
       </div>
-
-      <div className="login-main">
-        <h1>Login Page</h1>
-      </div>
-
-      <div className="login-footer">
-        <h2>Created By Dan Beebe</h2>
-      </div>
-
-    </div>
-  )
+    )
+  }
 }
 
 export default Login;
