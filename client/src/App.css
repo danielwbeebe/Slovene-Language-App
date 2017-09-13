@@ -251,6 +251,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #BDAEE8;
+  color: white;
+  border-radius: 20px;
+  min-width: 55vw;
+  min-height: 60vh;
+  margin-left: 3vw;
 }
 
 .main-right {
@@ -258,6 +264,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-width: 55vw;
+  min-height: 60vh;
+  margin-left: 3vw;
 }
 
 .main-upper-right {
@@ -265,6 +274,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #BDAEE8;
+  color: white;
+  border-radius: 20px;
+  min-width: 20vw;
+  min-height: 40vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
 }
 
 .main-lower-right {
@@ -272,10 +288,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #BDAEE8;
+  color: white;
+  border-radius: 20px;
+  min-width: 20vw;
+  min-height: 19vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
 }
-
-
-
 
 
 /*font sizes*/

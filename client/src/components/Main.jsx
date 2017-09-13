@@ -7,16 +7,13 @@ const Main = () => {
     <div className="main-page">
 
       <div className="main-header">
-
         <div className="main-message">
           <h1>slovolingo</h1>
         </div>
-
       </div>
 
       <div className="main-main">
-
-        <div classname="main-left">
+        <div className="main-left">
           <h1>Slovene Tests</h1>
         </div>
 
