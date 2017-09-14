@@ -13,7 +13,6 @@ usersController.create = (req, res) => {
         level: req.body.options.level,
     })
     .then(user => {
-        console.log(`Created ${user}`)
         req.login(user, (err) => {
             if(err) return next(err);
             res.json({
@@ -28,10 +27,5 @@ usersController.create = (req, res) => {
         res.status(500).json({error: err});
     })
 };
-
-usersController.index = (req, res) =>{
-    console.log(`${req.user.username} signed in`);
-};
-
 
 module.exports = usersController;

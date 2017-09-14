@@ -13,7 +13,7 @@ User.create = user =>{
         INSERT INTO users
         (username, email, password_digest, level)
         VALUES
-        ($1,$2,$3,$4)
+        ($1,$2,$3,1)
         RETURNING *
     `, [user.username, user.email, user.password_digest, user.level]);
 };

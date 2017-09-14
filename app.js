@@ -39,12 +39,6 @@ app.get('/', (req, res) => {
 const authRoutes = require('./routes/auth-routes.js');
 app.use('/auth', authRoutes);
 
-const userRoutes = require('./routes/user-routes');
-app.use('/user', userRoutes);
-
-// const questionRoutes = require('./routes/question-routes.js');
-// app.use('/questions', questionRoutes);
-
 app.get('/logout', function(req, res){
   req.logout();
   res.redirect('/');
