@@ -376,6 +376,42 @@ table {
   background-color: white;
 }
 
+/*Quiz One Page*/
+
+.quiz-one-header, .quiz-two-header, .quiz-three-header, .quiz-four-header, .quiz-five-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  min-height: 10vh;
+  background-color: #625391;
+  color: white;
+}
+
+.quiz-one-main, .quiz-two-main, .quiz-three-main, .quiz-four-main, .quiz-five-main {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.quiz-one-footer, .quiz-two-footer, .quiz-three-footer, .quiz-four-footer, .quiz-five-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background-color: #625391;
+  color: white;
+}
+
+
+
 /*font sizes*/
 h1 {
   font-size: 35px;
