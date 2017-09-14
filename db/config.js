@@ -8,11 +8,8 @@ const options = {
 // requiring pg-promise
 const pgp = require('pg-promise')(options);
 
-// Defining contant variable db for database
-const db = setDatabase();
-
 // Setting up database and port 5432
-const db = (() => {
+const db = () => {
   if (process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
     db = pgp({
       database: 'slovene_dev',

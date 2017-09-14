@@ -5,7 +5,7 @@ User.findByUserName = username =>{
     return db.one(`
         SELECT * FROM users
         WHERE username = $1
-    `,[username]);
+    `, [username]);
 }
 
 User.create = user =>{
