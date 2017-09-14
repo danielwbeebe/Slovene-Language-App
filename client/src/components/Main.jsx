@@ -15,14 +15,21 @@ const Main = () => {
       <div className="main-main">
         <div className="main-left">
           <h1>Slovene Tests</h1>
+          <div className="quiz-entry">1</div>
+          <div className="quiz-entry">2</div>
+          <div className="quiz-entry">3</div>
+          <div className="quiz-entry">4</div>
+          <div className="quiz-entry">5</div>
         </div>
 
         <div classname="main-right">
           <div className="main-upper-right">
-            <h1>Welcome, User</h1>
+            <h2>Welcome, User</h2>
+            <h4>Level: 1</h4>
           </div>
           <div className="main-lower-right">
-            <h1>Random Word to Learn</h1>
+            <h2>Random Word to Learn</h2>
+            <h4>"Word" means: translation</h4>
           </div>
         </div>
 
