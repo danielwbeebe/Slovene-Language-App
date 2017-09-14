@@ -11,7 +11,7 @@ const Main = () => {
           <h1>slovolingo</h1>
         </div>
         <div className="main-logout">
-          <Link className='main-logout-link' Link to="/">Log out</Link>
+          <Link to="/"><button className="main-logout-button"><p>Logout</p></button></Link>
         </div>
       </div>
 
