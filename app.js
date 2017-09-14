@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'public', 'index.html'));
 });
 
-const authRoutes = require('./routes/auth-routes.js');
+const authRoutes = require('./routes/auth-routes');
 app.use('/auth', authRoutes);
 
 app.get('/logout', function(req, res){

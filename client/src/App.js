@@ -28,9 +28,14 @@ class App extends Component {
       redirect: false,
       redirecting: '',
     }
+    this.handleLoginSubmit = this.handleLoginSubmit.bind(this);
+    this.handleRegisterSubmit = this.handleRegisterSubmit.bind(this);
+    this.handleRedirect = this.handleRedirect.bind(this);
+    this.logOut = this.logOut.bind(this);
+    this.redirectTo = this.redirectTo.bind(this);
   }
 
-  handleLoginSubmit = (e, username, password) => {
+  handleLoginSubmit(e, username, password) {
     e.preventDefault();
     axios.post('/auth/login', {
       username,
@@ -46,7 +51,8 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
-  handleRegisterSubmit = (e, options) => {
+// Thanks and credit to J Silverstein for helping to fix registration error
+  handleRegisterSubmit(e, options) {
     e.preventDefault();
     axios.post('/auth/register', {
       options
@@ -65,7 +71,7 @@ class App extends Component {
     .catch(err => console.log(err));
   }
 
-  handleRedirect = (path) => {
+  handleRedirect(path) {
     this.setState({
       redirect: true,
       redirecting: path,
@@ -83,7 +89,7 @@ class App extends Component {
       }).catch(err => console.log(err));
   }
 
-  redirectTo = () => {
+  redirectTo() {
     if(this.state.redirect){
       console.log('redirect')
       this.setState({
@@ -98,8 +104,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" render={() => <Welcome />} />
-          <Route exact path="/register" render={() => <Register />} />
-          <Route exact path="/login" render={() => <Login />} />
+          <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit}/>} />
+          <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit}/>} />
           <Route exact path="/main" render={() => <Main />} />
           <Route exact path="/about" render={() => <AboutApp />} />
           <Route exact path="/quizone" render={() => <QuizOne />} />
