@@ -18,11 +18,11 @@ const Main = () => {
       <div className="main-main">
         <div className="main-left">
           <h1>Slovene Tests</h1>
-          <div className="quiz-entry">1</div>
-          <div className="quiz-entry">2</div>
-          <div className="quiz-entry">3</div>
-          <div className="quiz-entry">4</div>
-          <div className="quiz-entry">5</div>
+          <Link to="/quizone"><button className="quiz-entry"><h4>1</h4></button></Link>
+          <Link to="/quiztwo"><button className="quiz-entry"><h4>2</h4></button></Link>
+          <Link to="/quizthree"><button className="quiz-entry"><h4>3</h4></button></Link>
+          <Link to="/quizfour"><button className="quiz-entry"><h4>4</h4></button></Link>
+          <Link to="/quizfive"><button className="quiz-entry"><h4>5</h4></button></Link>
         </div>
 
         <div classname="main-right">
