@@ -11,7 +11,7 @@ authRouter.get('/login', authHelpers.loginRedirect, (req, res) => {
   });
 });
 
-// register
+// // register
 authRouter.get('/register', authHelpers.loginRedirect, (req, res) => {
   res.render('auth/register', {
     currentPage: 'register',
