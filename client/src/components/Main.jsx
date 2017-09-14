@@ -10,6 +10,9 @@ const Main = () => {
         <div className="main-message">
           <h1>slovolingo</h1>
         </div>
+        <div className="main-logout">
+          <Link className='main-logout-link' Link to="/">Log out</Link>
+        </div>
       </div>
 
       <div className="main-main">
@@ -24,7 +27,9 @@ const Main = () => {
 
         <div classname="main-right">
           <div className="main-upper-right">
-            <h2>Welcome, User</h2>
+            <div className="main-welcome-username">
+              <h2>Welcome, User</h2>
+            </div>
             <h4>Level: 1</h4>
           </div>
           <div className="main-lower-right">
