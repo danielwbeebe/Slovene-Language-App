@@ -16,6 +16,7 @@ passport.use(
         if (!user) {
           return done(null, false);
         }
+        console.log("LocalStrategy", password, user.password_digest);
         if (!authHelpers.comparePass(password, user.password_digest)) {
           return done(null, false);
         } else {
