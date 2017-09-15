@@ -47,7 +47,7 @@ class App extends Component {
         auth: res.data.auth,
         user: res.data.user,
       });
-      window.location.href = '/main'
+      this.handleRedirect('/main')
     }).catch(err => console.log(err));
   }
 
@@ -66,7 +66,7 @@ class App extends Component {
         auth: res.data.auth,
         user: res.data.user,
       })
-      window.location.href = '/main'
+      this.handleRedirect('/main')
     })
     .catch(err => console.log(err));
   }
@@ -113,6 +113,7 @@ class App extends Component {
           <Route exact path="/quizthree" render={() => <QuizThree />} />
           <Route exact path="/quizfour" render={() => <QuizFour />} />
           <Route exact path="/quizfive" render={() => <QuizFive />} />
+          {this.redirectTo()}
         </div>
       </Router>
     );
@@ -120,3 +121,4 @@ class App extends Component {
 }
 
 export default App;
+
