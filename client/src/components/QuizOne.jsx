@@ -12,7 +12,6 @@ class QuizOne extends Component {
         done: false,
       }
     this.handleChangeQuestion = this.handleChangeQuestion.bind(this);
-    console.log(`question: ` + this.state.number + ` ` + this.state.question)
   }
 
   handleChangeQuestion() {
@@ -23,6 +22,78 @@ class QuizOne extends Component {
       answer: "He",
       wrong_one: "I",
       wrong_two: "You",
+    })}
+    if (this.state.number===2) {
+    this.setState({
+      number: 3,
+      question: "What does 'ona' mean?",
+      answer: "She",
+      wrong_one: "They",
+      wrong_two: "He",
+    })}
+    if (this.state.number===3) {
+    this.setState({
+      number: 4,
+      question: "What does 'onadva' mean?",
+      answer: "They both (masculine)",
+      wrong_one: "They all",
+      wrong_two: "They both (feminine)",
+    })}
+    if (this.state.number===4) {
+    this.setState({
+      number: 5,
+      question: "What does 'onadve' mean?",
+      answer: "They both (feminine)",
+      wrong_one: "They all",
+      wrong_two: "They both (masculine)",
+    })}
+    if (this.state.number===5) {
+    this.setState({
+      number: 6,
+      question: "What does 'ti' mean?",
+      answer: "you",
+      wrong_one: "he",
+      wrong_two: "I",
+    })}
+    if (this.state.number===6) {
+    this.setState({
+      number: 7,
+      question: "What does 'Jaz sem' mean?",
+      answer: "I am.",
+      wrong_one: "He is.",
+      wrong_two: "They are.",
+    })}
+    if (this.state.number===7) {
+    this.setState({
+      number: 8,
+      question: "What does 'Ti si' mean?",
+      answer: "You are.",
+      wrong_one: "He is.",
+      wrong_two: "I am.",
+    })}
+    if (this.state.number===8) {
+    this.setState({
+      number: 9,
+      question: "What does 'On je' mean?",
+      answer: "He is.",
+      wrong_one: "She is.",
+      wrong_two: "I am.",
+    })}
+    if (this.state.number===9) {
+    this.setState({
+      number: 10,
+      question: "What does 'Mi smo' mean?",
+      answer: "We are.",
+      wrong_one: "They are.",
+      wrong_two: "He is.",
+    })}
+    if (this.state.number===10) {
+    this.setState({
+      number: 11,
+      question: "Congratulations! You finished quiz one!",
+      answer: " ",
+      wrong_one: " ",
+      wrong_two: " ",
     })}
     this.randomOrder()
   };
@@ -46,6 +117,7 @@ class QuizOne extends Component {
         </div>
 
         <div className="quiz-one-main">
+          <h2>Quiz One: Pronouns</h2>
           <div className="quiz-one-question">
             <h3>{this.state.question}</h3>
           </div>
