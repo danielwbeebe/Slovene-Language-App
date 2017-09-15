@@ -394,11 +394,48 @@ table {
 .quiz-one-main, .quiz-two-main, .quiz-three-main, .quiz-four-main, .quiz-five-main {
   display: flex;
   min-height: 80vh;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: white;
   color: black;
+}
+
+.quiz-one-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #BDAEE8;
+  color: white;
+  border-radius: 20px;
+  min-width: 20vw;
+  min-height: 30vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+
+.quiz-one-choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quiz-one-answer-left, .quiz-one-answer-center, .quiz-one-answer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #BDAEE8;
+  color: white;
+  border-radius: 20px;
+  min-width: 20vw;
+  min-height: 19vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
 }
 
 .quiz-one-footer, .quiz-two-footer, .quiz-three-footer, .quiz-four-footer, .quiz-five-footer {
