@@ -15,6 +15,7 @@ class QuizOne extends Component {
   }
 
   handleChangeQuestion() {
+
     this.setState({
       question: "Second Question",
       answer: "Another Answer",

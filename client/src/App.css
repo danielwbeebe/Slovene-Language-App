@@ -406,7 +406,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #BDAEE8;
+  background-color: #F88017;
   color: white;
   border-radius: 20px;
   min-width: 20vw;
@@ -452,7 +452,6 @@ table {
   background-color: #625391;
   color: white;
 }
-
 
 
 /*font sizes*/
