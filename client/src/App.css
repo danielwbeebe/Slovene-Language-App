@@ -324,13 +324,13 @@ table {
 }
 
 .main-right {
-  display: flex;
+/*  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   min-width: 55vw;
   min-height: 60vh;
-  margin-left: 3vw;
+  margin-left: 3vw;*/
 }
 
 .main-upper-right {

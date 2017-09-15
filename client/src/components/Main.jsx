@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Main = () => {
-
+const Main = (props) => {
   return (
     <div className="main-page">
 
@@ -25,10 +24,10 @@ const Main = () => {
           <Link to="/quizfive"><button className="quiz-entry"><h4>5</h4></button></Link>
         </div>
 
-        <div classname="main-right">
+        <div className="main-right">
           <div className="main-upper-right">
             <div className="main-welcome-username">
-              <h2>Welcome, User</h2>
+              <h2>Welcome, {props.firstname}</h2>
             </div>
             <h4>Level: 1</h4>
           </div>
