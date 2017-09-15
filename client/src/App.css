@@ -414,8 +414,8 @@ table {
   margin-right: 3vw;
   margin-left: 3vw;
   margin-top: 1vh;
+  padding: 2px 2px 2px 2px;
 }
-
 
 .quiz-one-choices {
   display: flex;
@@ -436,6 +436,12 @@ table {
   margin-right: 3vw;
   margin-left: 3vw;
   margin-top: 1vh;
+  padding: 2px 2px 2px 2px;
+}
+
+.quiz-one-answer-left:hover, .quiz-one-answer-center:hover, .quiz-one-answer-right:hover {
+  color: white;
+  background-color: #F88017;
 }
 
 .quiz-one-footer, .quiz-two-footer, .quiz-three-footer, .quiz-four-footer, .quiz-five-footer {
