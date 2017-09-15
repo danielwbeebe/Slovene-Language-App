@@ -4,26 +4,37 @@ class QuizOne extends Component {
   constructor(){
     super();
       this.state = {
-        question: "What does 'Jaz' mean?",
+        number: 1,
+        question: "What does 'jaz' mean?",
         answer: "I",
         wrong_one: "You",
         wrong_two: "They",
         done: false,
       }
     this.handleChangeQuestion = this.handleChangeQuestion.bind(this);
-    console.log(`question: ` + this.state.question)
+    console.log(`question: ` + this.state.number + ` ` + this.state.question)
   }
 
   handleChangeQuestion() {
-
+    if (this.state.number===1) {
     this.setState({
-      question: "Second Question",
-      answer: "Another Answer",
-      wrong_one: "Wrong",
-      wrong_two: "Wrong 2",
-    })
-    console.log (`question ` + this.state.question)
+      number: 2,
+      question: "What does 'on' mean?",
+      answer: "He",
+      wrong_one: "I",
+      wrong_two: "You",
+    })}
+    this.randomOrder()
   };
+
+  randomOrder() {
+    var randNum = Math.floor(Math.random() * 3);
+    console.log(`Random number selected: ` + randNum)
+  }
+
+  rightOrWrong() {
+
+  }
 
   render(){
     return (
