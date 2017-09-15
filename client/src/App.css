@@ -85,6 +85,10 @@ table {
   color: white;
 }
 
+.welcome-message {
+  padding-bottom: 30px;
+}
+
 .welcome-right {
   display: flex;
   flex-direction: column;
