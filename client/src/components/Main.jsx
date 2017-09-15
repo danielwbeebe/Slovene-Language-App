@@ -27,7 +27,7 @@ const Main = (props) => {
         <div className="main-right">
           <div className="main-upper-right">
             <div className="main-welcome-username">
-              <h2>Welcome, {props.firstname}</h2>
+              <h2>Welcome, {props.username}</h2>
             </div>
             <h4>Level: 1</h4>
           </div>
