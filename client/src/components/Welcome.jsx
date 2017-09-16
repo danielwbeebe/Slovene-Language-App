@@ -28,7 +28,7 @@ const Welcome = () => {
         </div>
 
         <div className="welcome-right">
-          <img src="/slovenia-lake.png" width="300" height="300"></img>
+          <img src="/slovenia-lake.png" width="300" height="300" alt="slovenia"></img>
         </div>
 
       </div>

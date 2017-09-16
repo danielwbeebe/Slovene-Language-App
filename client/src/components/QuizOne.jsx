@@ -14,7 +14,6 @@ class QuizOne extends Component {
         clicked: " ",
         done: false,
       }
-    this.handleCheckAnswer = this.handleCheckAnswer.bind(this);
     this.randomOrder = this.randomOrder.bind(this);
     this.clickLeft = this.clickLeft.bind(this);
     this.clickCenter = this.clickCenter.bind(this);
@@ -29,6 +28,9 @@ class QuizOne extends Component {
 
   clickLeft() {
     console.log("You clicked left")
+    this.setState({
+      clicked: "left",
+    })
     if (this.state.correct==="left") {
       console.log("The correct answer was left")
     }
@@ -38,14 +40,14 @@ class QuizOne extends Component {
     if (this.state.correct==="right") {
       console.log("The correct answer was right")
     }
-    this.setState({
-      clicked: "left",
-    })
     this.componentDidMount();
   }
 
   clickCenter() {
     console.log("You clicked center")
+    this.setState({
+      clicked: "center",
+    })
     if (this.state.correct==="left") {
       console.log("The correct answer was left")
     }
@@ -55,14 +57,14 @@ class QuizOne extends Component {
     if (this.state.correct==="right") {
       console.log("The correct answer was right")
     }
-    this.setState({
-      clicked: "center",
-    })
     this.componentDidMount();
   }
 
   clickRight() {
     console.log("You clicked right")
+    this.setState({
+      clicked: "right",
+    })
     if (this.state.correct==="left") {
       console.log("The correct answer was left")
     }
@@ -72,15 +74,8 @@ class QuizOne extends Component {
     if (this.state.correct==="right") {
       console.log("The correct answer was right")
     }
-    this.setState({
-      clicked: "right",
-    })
-    this.handleCheckAnswer();
+    this.componentDidMount();
   }
-
-  handleCheckAnswer() {
-    this.randomOrder();
-  };
 
   randomOrder() {
     var randNum = Math.floor(Math.random() * 3);
