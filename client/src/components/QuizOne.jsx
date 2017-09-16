@@ -5,12 +5,12 @@ class QuizOne extends Component {
   constructor(){
     super();
       this.state = {
-        number: 1,
-        question: "What does 'jaz sem' mean?",
-        left: "You are",
-        center: "I am",
-        right: "We are",
-        correct: "center",
+        number: 0,
+        question: " ",
+        left: " ",
+        center: " ",
+        right: " ",
+        correct: " ",
         clicked: " ",
         done: false,
       }
@@ -19,6 +19,12 @@ class QuizOne extends Component {
     this.clickLeft = this.clickLeft.bind(this);
     this.clickCenter = this.clickCenter.bind(this);
     this.clickRight = this.clickRight.bind(this);
+    this.componentDidMount = this.componentDidMount.bind(this);
+  }
+
+  componentDidMount() {
+    console.log("component did mount");
+    this.randomOrder();
   }
 
   clickLeft() {
@@ -26,7 +32,7 @@ class QuizOne extends Component {
     this.setState({
       clicked: "left",
     })
-    this.handleCheckAnswer();
+    this.componentDidMount();
   }
 
   clickCenter() {
@@ -34,7 +40,7 @@ class QuizOne extends Component {
     this.setState({
       clicked: "center",
     })
-    this.handleCheckAnswer();
+    this.componentDidMount();
   }
 
   clickRight() {
@@ -46,19 +52,17 @@ class QuizOne extends Component {
   }
 
   handleCheckAnswer() {
-    if (this.state.number===1) {
-      console.log("The correct answer to first question was center")
+    if (this.state.correct==="left") {
+      console.log("The correct answer was left")
+      console.log(this.state.clicked)
     }
-    else {
-      if (this.state.correct==="left") {
-        console.log("The correct answer was left")
-      }
-      if (this.state.correct==="center") {
-        console.log("The correct answer was center")
-      }
-      if (this.state.correct==="right") {
-        console.log("The correct answer was right")
-      }
+    if (this.state.correct==="center") {
+      console.log("The correct answer was center")
+      console.log(this.state.clicked)
+    }
+    if (this.state.correct==="right") {
+      console.log("The correct answer was right")
+      console.log(this.state.clicked)
     }
     this.randomOrder();
   };
@@ -66,6 +70,35 @@ class QuizOne extends Component {
   randomOrder() {
     var randNum = Math.floor(Math.random() * 3);
     console.log(`Random number selected: ` + randNum)
+
+// question 1
+    if ((this.state.number===0) && (randNum===0)) {
+      this.setState({
+        number: 1,
+        question: "What does 'jaz sem' mean?",
+        left: "I am",
+        center: "They are",
+        right: "He is",
+        correct: "left"
+      })}
+    if ((this.state.number===0) && (randNum===1)){
+      this.setState({
+        number: 1,
+        question: "What does 'jaz sem' mean?",
+        left: "He is",
+        center: "I am",
+        right: "They are",
+        correct: "center"
+      })}
+    if ((this.state.number===0) && (randNum===2)) {
+      this.setState({
+        number: 1,
+        question: "What does 'jaz sem' mean?",
+        left: "They are",
+        center: "He is",
+        right: "I am",
+        correct: "right"
+    })}
 
 // question 2
     if ((this.state.number===1) && (randNum===0)) {
