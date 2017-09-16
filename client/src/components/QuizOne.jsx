@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class QuizOne extends Component {
   constructor(){
@@ -111,9 +112,7 @@ class QuizOne extends Component {
     return (
       <div className="quiz-one">
         <div className="quiz-one-header">
-          <div className="quiz-one-message">
-            <h1>slovolingo</h1>
-          </div>
+          <h1 className="quiz-one-message"><Link to="/main">slovolingo</Link></h1>
         </div>
 
         <div className="quiz-one-main">

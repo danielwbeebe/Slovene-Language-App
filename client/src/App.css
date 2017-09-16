@@ -61,6 +61,12 @@ table {
   font-weight: 100;
 }
 
+/*generally no text decorations*/
+input, button, submit { border:none; }
+a {text-decoration: none}
+a:visited { text-decoration: none; color: inherit;}
+a:focus { text-decoration: none; color: inherit; }
+
 /*welcome page*/
 .welcome-header {
   display: flex;
@@ -393,6 +399,17 @@ table {
   min-height: 10vh;
   background-color: #625391;
   color: white;
+  text-decoration: none;
+}
+
+.quiz-one-message {
+  background-color: #625391;
+  color: white;
+  text-decoration: none;
+}
+
+.quiz-one-message:hover {
+  color: #F88017;
 }
 
 .quiz-one-main, .quiz-two-main, .quiz-three-main, .quiz-four-main, .quiz-five-main {
