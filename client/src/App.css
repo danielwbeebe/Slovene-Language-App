@@ -323,7 +323,7 @@ a:focus { text-decoration: none; color: inherit; }
 .main-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #BDAEE8;
   color: white;
