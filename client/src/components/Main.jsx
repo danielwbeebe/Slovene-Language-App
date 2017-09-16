@@ -2,9 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Main = (props) => {
+  console.log(props)
   return (
     <div className="main-page">
-
       <div className="main-header">
         <div className="main-message">
           <h1>slovolingo</h1>
@@ -29,7 +29,7 @@ const Main = (props) => {
             <div className="main-welcome-username">
               <h2>Welcome, {props.username}</h2>
             </div>
-            <h4>Level: 1</h4>
+            <h4>Level: {props.level}</h4>
           </div>
           <div className="main-lower-right">
             <h2>Random Word to Learn</h2>
