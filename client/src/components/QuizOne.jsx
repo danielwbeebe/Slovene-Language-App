@@ -29,6 +29,15 @@ class QuizOne extends Component {
 
   clickLeft() {
     console.log("You clicked left")
+    if (this.state.correct==="left") {
+      console.log("The correct answer was left")
+    }
+    if (this.state.correct==="center") {
+      console.log("The correct answer was center")
+    }
+    if (this.state.correct==="right") {
+      console.log("The correct answer was right")
+    }
     this.setState({
       clicked: "left",
     })
@@ -37,6 +46,15 @@ class QuizOne extends Component {
 
   clickCenter() {
     console.log("You clicked center")
+    if (this.state.correct==="left") {
+      console.log("The correct answer was left")
+    }
+    if (this.state.correct==="center") {
+      console.log("The correct answer was center")
+    }
+    if (this.state.correct==="right") {
+      console.log("The correct answer was right")
+    }
     this.setState({
       clicked: "center",
     })
@@ -45,6 +63,15 @@ class QuizOne extends Component {
 
   clickRight() {
     console.log("You clicked right")
+    if (this.state.correct==="left") {
+      console.log("The correct answer was left")
+    }
+    if (this.state.correct==="center") {
+      console.log("The correct answer was center")
+    }
+    if (this.state.correct==="right") {
+      console.log("The correct answer was right")
+    }
     this.setState({
       clicked: "right",
     })
@@ -52,18 +79,6 @@ class QuizOne extends Component {
   }
 
   handleCheckAnswer() {
-    if (this.state.correct==="left") {
-      console.log("The correct answer was left")
-      console.log(this.state.clicked)
-    }
-    if (this.state.correct==="center") {
-      console.log("The correct answer was center")
-      console.log(this.state.clicked)
-    }
-    if (this.state.correct==="right") {
-      console.log("The correct answer was right")
-      console.log(this.state.clicked)
-    }
     this.randomOrder();
   };
 
@@ -374,7 +389,7 @@ class QuizOne extends Component {
           <div className="quiz-one-choices">
             <button onClick={this.clickLeft} className="quiz-one-answer-left"><h4>{this.state.left}</h4></button>
             <button onClick={this.clickCenter} className="quiz-one-answer-center"><h4>{this.state.center}</h4></button>
-            <button onClick={this.clickLeft} className="quiz-one-answer-right"><h4>{this.state.right}</h4></button>
+            <button onClick={this.clickRight} className="quiz-one-answer-right"><h4>{this.state.right}</h4></button>
           </div>
         </div>
 
