@@ -104,8 +104,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" render={() => <Welcome />} />
-          <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit}/>} />
-          <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit}/>} />
+          <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit} />} />
+          <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
           <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username}/>} />
           <Route exact path="/about" render={() => <AboutApp />} />
           <Route exact path="/quizone" render={() => <QuizOne />} />
