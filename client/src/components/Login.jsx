@@ -26,7 +26,7 @@ class Login extends Component{
 
         <div className="login-main">
           <div className="login-title">
-            <h1>Welcome Back!</h1>
+            <h1>Please Login</h1>
           </div>
 
           <form action="/auth/login" method='POST' className="login-form">

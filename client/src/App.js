@@ -66,7 +66,7 @@ class App extends Component {
         auth: res.data.auth,
         user: res.data.user,
       })
-      this.handleRedirect('/main')
+      window.location.href = '/login'
     })
     .catch(err => console.log(err));
   }
