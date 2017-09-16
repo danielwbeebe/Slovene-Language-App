@@ -29,7 +29,9 @@ const Main = (props) => {
             <div className="main-welcome-username">
               <h2>Welcome, {props.username}</h2>
             </div>
-            <h4>Level: {props.level}</h4>
+            <div className="main-level">
+              <h3>Level: {props.level}</h3>
+            </div>
           </div>
           <div className="main-lower-right">
             <h2>Random Word to Learn</h2>
