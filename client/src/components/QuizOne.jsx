@@ -167,6 +167,118 @@ class QuizOne extends Component {
         right: "You are (singular)",
         correct: "right"
     })}
+// question 7
+    if ((this.state.number===6) && (randNum===0)) {
+      this.setState({
+        number: 7,
+        question: "What does 'midva sva' mean?",
+        left: "We two are",
+        center: "I am",
+        right: "We are",
+        correct: "left"
+      })}
+    if ((this.state.number===6) && (randNum===1)){
+      this.setState({
+        number: 7,
+        question: "What does 'midva sva' mean?",
+        left: "We are",
+        center: "We two are",
+        right: "I am",
+        correct: "center"
+      })}
+    if ((this.state.number===6) && (randNum===2)) {
+      this.setState({
+        number: 7,
+        question: "What does 'midva sva' mean?",
+        left: "I am",
+        center: "We are",
+        right: "We two are",
+        correct: "right"
+    })}
+// question 8
+    if ((this.state.number===7) && (randNum===0)) {
+      this.setState({
+        number: 8,
+        question: "What does 'vi ste' mean?",
+        left: "You are (plural)",
+        center: "You are (singular)",
+        right: "You two are",
+        correct: "left"
+      })}
+    if ((this.state.number===7) && (randNum===1)){
+      this.setState({
+        number: 8,
+        question: "What does 'vi ste' mean?",
+        left: "You two are",
+        center: "You are (plural)",
+        right: "You are (singular)",
+        correct: "center"
+      })}
+    if ((this.state.number===7) && (randNum===2)) {
+      this.setState({
+        number: 8,
+        question: "What does 'vi ste' mean?",
+        left: "You are (singular)",
+        center: "You two are",
+        right: "You are (plural)",
+        correct: "right"
+    })}
+// question 9
+    if ((this.state.number===8) && (randNum===0)) {
+      this.setState({
+        number: 9,
+        question: "What does 'onadva sta' mean?",
+        left: "They two are",
+        center: "They are",
+        right: "He is",
+        correct: "left"
+      })}
+    if ((this.state.number===8) && (randNum===1)){
+      this.setState({
+        number: 9,
+        question: "What does 'onadva sta' mean?",
+        left: "He is",
+        center: "They two are",
+        right: "They are",
+        correct: "center"
+      })}
+    if ((this.state.number===8) && (randNum===2)) {
+      this.setState({
+        number: 9,
+        question: "What does 'onadva sta' mean?",
+        left: "They are",
+        center: "He is",
+        right: "They two are",
+        correct: "right"
+    })}
+// question 10
+    if ((this.state.number===9) && (randNum===0)) {
+      this.setState({
+        number: 10,
+        question: "What does 'on je' mean?",
+        left: "He is",
+        center: "She is",
+        right: "They are",
+        correct: "left"
+      })}
+    if ((this.state.number===9) && (randNum===1)){
+      this.setState({
+        number: 10,
+        question: "What does 'on je' mean?",
+        left: "They are",
+        center: "He is",
+        right: "She is",
+        correct: "center"
+      })}
+    if ((this.state.number===9) && (randNum===2)) {
+      this.setState({
+        number: 10,
+        question: "What does 'on je' mean?",
+        left: "She is",
+        center: "They are",
+        right: "He is",
+        correct: "right"
+    })}
 
   }
 
