@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-import soundFile from './ring.wav';
+import ringSound from './ring.wav';
+import knockSound from './knock.wav';
 
 class QuizOne extends Component {
   constructor(){
@@ -36,6 +37,7 @@ class QuizOne extends Component {
     }
     else {
       console.log("wrong!")
+      this.isWrong();
     }
   }
 
@@ -47,6 +49,7 @@ class QuizOne extends Component {
     }
     else {
       console.log("wrong!")
+      this.isWrong();
     }
   }
 
@@ -58,13 +61,19 @@ class QuizOne extends Component {
     }
     else {
       console.log("wrong!")
+      this.isWrong();
     }
   }
 
   checkCorrect() {
-    var audio = new Audio(soundFile);
+    var audio = new Audio(ringSound);
     audio.play();
     this.componentDidMount();
+  }
+
+  isWrong() {
+    var audio = new Audio(knockSound);
+    audio.play();
   }
 
   randomOrder() {
