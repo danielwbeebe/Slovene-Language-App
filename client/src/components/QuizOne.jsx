@@ -1,8 +1,20 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-import ringSound from './ring.wav';
-import knockSound from './knock.wav';
+import ringSound from './audio/ring.wav';
+import knockSound from './audio/knock.wav';
+
+import jazSem from './audio/jazsem.m4a';
+import oniSo from './audio/oniso.m4a';
+import vidvaSta from './audio/vidvasta.m4a';
+import onaJe from './audio/onaje.m4a';
+import miSmo from './audio/mismo.m4a';
+
+import tiSi from './audio/tisi.m4a';
+import midvaSva from './audio/midvasva.m4a';
+import viSte from './audio/viste.m4a';
+import onadvaSta from './audio/onadvasta.m4a';
+import onje from './audio/onje.m4a';
 
 class QuizOne extends Component {
   constructor(){
@@ -88,7 +100,10 @@ class QuizOne extends Component {
         center: "They are",
         right: "He is",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(jazSem);
+    audio.play();
+    }
     if ((this.state.number===0) && (randNum===1)){
       this.setState({
         number: 1,
@@ -97,7 +112,10 @@ class QuizOne extends Component {
         center: "I am",
         right: "They are",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(jazSem);
+    audio.play();
+    }
     if ((this.state.number===0) && (randNum===2)) {
       this.setState({
         number: 1,
@@ -106,7 +124,10 @@ class QuizOne extends Component {
         center: "He is",
         right: "I am",
         correct: "right"
-    })}
+      })
+    var audio = new Audio(jazSem);
+    audio.play();
+    }
 
 // question 2
     if ((this.state.number===1) && (randNum===0)) {
@@ -117,7 +138,10 @@ class QuizOne extends Component {
         center: "I am",
         right: "He is",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(oniSo);
+    audio.play();
+    }
     if ((this.state.number===1) && (randNum===1)){
       this.setState({
         number: 2,
@@ -126,7 +150,10 @@ class QuizOne extends Component {
         center: "They are",
         right: "I am",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(oniSo);
+    audio.play();
+    }
     if ((this.state.number===1) && (randNum===2)) {
       this.setState({
         number: 2,
@@ -135,7 +162,10 @@ class QuizOne extends Component {
         center: "He is",
         right: "They are",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(oniSo);
+    audio.play();
+    }
 
 // question 3
     if ((this.state.number===2) && (randNum===0)) {
@@ -146,7 +176,10 @@ class QuizOne extends Component {
         center: "You are",
         right: "She is",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(vidvaSta);
+    audio.play();
+    }
     if ((this.state.number===2) && (randNum===1)){
       this.setState({
         number: 3,
@@ -155,7 +188,10 @@ class QuizOne extends Component {
         center: "You two are",
         right: "You are",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(vidvaSta);
+    audio.play();
+    }
     if ((this.state.number===2) && (randNum===2)) {
       this.setState({
         number: 3,
@@ -164,7 +200,10 @@ class QuizOne extends Component {
         center: "She is",
         right: "You two are",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(vidvaSta);
+    audio.play();
+    }
 
 // question 4
     if ((this.state.number===3) && (randNum===0)) {
@@ -175,7 +214,10 @@ class QuizOne extends Component {
         center: "He is",
         right: "They are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(onaJe);
+    audio.play();
+    }
     if ((this.state.number===3) && (randNum===1)){
       this.setState({
         number: 4,
@@ -184,7 +226,10 @@ class QuizOne extends Component {
         center: "She is",
         right: "He is",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(onaJe);
+    audio.play();
+    }
     if ((this.state.number===3) && (randNum===2)) {
       this.setState({
         number: 4,
@@ -193,7 +238,10 @@ class QuizOne extends Component {
         center: "They are",
         right: "She is",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(onaJe);
+    audio.play();
+    }
 
 // question 5
     if ((this.state.number===4) && (randNum===0)) {
@@ -204,7 +252,10 @@ class QuizOne extends Component {
         center: "I am",
         right: "They are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(miSmo);
+    audio.play();
+    }
     if ((this.state.number===4) && (randNum===1)){
       this.setState({
         number: 5,
@@ -213,7 +264,10 @@ class QuizOne extends Component {
         center: "We are",
         right: "I am",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(miSmo);
+    audio.play();
+    }
     if ((this.state.number===4) && (randNum===2)) {
       this.setState({
         number: 5,
@@ -222,7 +276,11 @@ class QuizOne extends Component {
         center: "They are",
         right: "We are",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(miSmo);
+    audio.play();
+    }
+
 // question 6
     if ((this.state.number===5) && (randNum===0)) {
       this.setState({
@@ -232,7 +290,10 @@ class QuizOne extends Component {
         center: "You are (plural)",
         right: "You two are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(tiSi);
+    audio.play();
+    }
     if ((this.state.number===5) && (randNum===1)){
       this.setState({
         number: 6,
@@ -241,7 +302,10 @@ class QuizOne extends Component {
         center: "You are (singular)",
         right: "You two are",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(tiSi);
+    audio.play();
+    }
     if ((this.state.number===5) && (randNum===2)) {
       this.setState({
         number: 6,
@@ -250,7 +314,11 @@ class QuizOne extends Component {
         center: "You are (plural)",
         right: "You are (singular)",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(tiSi);
+    audio.play();
+    }
+
 // question 7
     if ((this.state.number===6) && (randNum===0)) {
       this.setState({
@@ -260,7 +328,10 @@ class QuizOne extends Component {
         center: "I am",
         right: "We are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(midvaSva);
+    audio.play();
+    }
     if ((this.state.number===6) && (randNum===1)){
       this.setState({
         number: 7,
@@ -269,7 +340,10 @@ class QuizOne extends Component {
         center: "We two are",
         right: "I am",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(midvaSva);
+    audio.play();
+    }
     if ((this.state.number===6) && (randNum===2)) {
       this.setState({
         number: 7,
@@ -278,7 +352,11 @@ class QuizOne extends Component {
         center: "We are",
         right: "We two are",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(midvaSva);
+    audio.play();
+    }
+
 // question 8
     if ((this.state.number===7) && (randNum===0)) {
       this.setState({
@@ -288,7 +366,10 @@ class QuizOne extends Component {
         center: "You are (singular)",
         right: "You two are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(viSte);
+    audio.play();
+    }
     if ((this.state.number===7) && (randNum===1)){
       this.setState({
         number: 8,
@@ -297,7 +378,10 @@ class QuizOne extends Component {
         center: "You are (plural)",
         right: "You are (singular)",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(viSte);
+    audio.play();
+    }
     if ((this.state.number===7) && (randNum===2)) {
       this.setState({
         number: 8,
@@ -306,7 +390,11 @@ class QuizOne extends Component {
         center: "You two are",
         right: "You are (plural)",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(viSte);
+    audio.play();
+    }
+
 // question 9
     if ((this.state.number===8) && (randNum===0)) {
       this.setState({
@@ -316,7 +404,10 @@ class QuizOne extends Component {
         center: "They are",
         right: "He is",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(onadvaSta);
+    audio.play();
+    }
     if ((this.state.number===8) && (randNum===1)){
       this.setState({
         number: 9,
@@ -325,7 +416,10 @@ class QuizOne extends Component {
         center: "They two are",
         right: "They are",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(onadvaSta);
+    audio.play();
+    }
     if ((this.state.number===8) && (randNum===2)) {
       this.setState({
         number: 9,
@@ -334,7 +428,11 @@ class QuizOne extends Component {
         center: "He is",
         right: "They two are",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(onadvaSta);
+    audio.play();
+  }
+
 // question 10
     if ((this.state.number===9) && (randNum===0)) {
       this.setState({
@@ -344,7 +442,10 @@ class QuizOne extends Component {
         center: "She is",
         right: "They are",
         correct: "left"
-      })}
+      })
+    var audio = new Audio(onje);
+    audio.play();
+    }
     if ((this.state.number===9) && (randNum===1)){
       this.setState({
         number: 10,
@@ -353,7 +454,10 @@ class QuizOne extends Component {
         center: "He is",
         right: "She is",
         correct: "center"
-      })}
+      })
+    var audio = new Audio(onje);
+    audio.play();
+    }
     if ((this.state.number===9) && (randNum===2)) {
       this.setState({
         number: 10,
@@ -362,10 +466,13 @@ class QuizOne extends Component {
         center: "They are",
         right: "He is",
         correct: "right"
-    })}
+    })
+    var audio = new Audio(onje);
+    audio.play();
+    }
   if (this.state.number===10) {
     this.setState({
-      question: "Congratulations! You're Done!",
+      question: "Congratulations! You Finished!",
       left: " ",
       center: " ",
       right: "  ",
