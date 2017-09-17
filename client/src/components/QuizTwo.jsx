@@ -26,11 +26,21 @@ class QuizTwo extends Component {
         </div>
 
         <div className="quiz-two-main">
-          <h1>Quiz Two Page</h1>
+          <h2>Level Two: Greetings</h2>
+          <div className="quiz-two-question">
+            <h2>{this.state.number} of 10</h2>
+            <h3>{this.state.question}</h3>
+          </div>
+
+          <div className="quiz-one-choices">
+            <button onClick={this.clickLeft} className="quiz-two-answer-left"><h4>{this.state.left}</h4></button>
+            <button onClick={this.clickCenter} className="quiz-two-answer-center"><h4>{this.state.center}</h4></button>
+            <button onClick={this.clickRight} className="quiz-two-answer-right"><h4>{this.state.right}</h4></button>
+          </div>
         </div>
 
         <div className="quiz-two-footer">
-          <a href="https://github.com/danielwbeebe" target="_blank"><h2>Created By Dan Beebe</h2></a>
+          <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
         </div>
 
       </div>
