@@ -27,29 +27,39 @@ class QuizOne extends Component {
   }
 
   clickLeft() {
-    this.setState({
-      clicked: "left",
-    })
+    console.log(this.state.correct)
+    if (this.state.correct==="left") {
+      console.log("correct!")
+    }
+    else {
+      console.log("wrong!")
+    }
     this.checkCorrect();
   }
 
   clickCenter() {
-    this.setState({
-      clicked: "center",
-    })
+    console.log(this.state.correct)
+    if (this.state.correct==="center") {
+      console.log("correct!")
+    }
+    else {
+      console.log("wrong!")
+    }
     this.checkCorrect();
   }
 
   clickRight() {
-    this.setState({
-      clicked: "right",
-    })
+    console.log(this.state.correct)
+    if (this.state.correct==="right") {
+      console.log("correct!")
+    }
+    else {
+      console.log("wrong!")
+    }
     this.checkCorrect();
   }
 
   checkCorrect() {
-    console.log(this.state.clicked)
-    console.log(this.state.correct)
     this.componentDidMount();
   }
 
