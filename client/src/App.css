@@ -333,16 +333,6 @@ a:focus { text-decoration: none; color: inherit; }
   margin-left: 3vw;
 }
 
-.main-right {
-/*  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 55vw;
-  min-height: 60vh;
-  margin-left: 3vw;*/
-}
-
 .main-upper-right {
   display: flex;
   flex-direction: column;
@@ -390,9 +380,9 @@ a:focus { text-decoration: none; color: inherit; }
   background-color: white;
 }
 
-/*Quiz One Page*/
+/*Quiz Pages*/
 
-.quiz-one-header, .quiz-two-header, .quiz-three-header, .quiz-four-header, .quiz-five-header {
+.quiz-one-header, .quiz-two-header, .quiz-three-header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -416,7 +406,7 @@ a:focus { text-decoration: none; color: inherit; }
   color: #F88017;
 }
 
-.quiz-one-main, .quiz-two-main, .quiz-three-main, .quiz-four-main, .quiz-five-main {
+.quiz-one-main, .quiz-two-main, .quiz-three-main {
   display: flex;
   min-height: 80vh;
   flex-direction: column;
@@ -470,7 +460,7 @@ a:focus { text-decoration: none; color: inherit; }
   background-color: #F88017;
 }
 
-.quiz-one-footer, .quiz-two-footer, .quiz-three-footer, .quiz-four-footer, .quiz-five-footer {
+.quiz-one-footer, .quiz-two-footer, .quiz-three-footer {
   display: flex;
   align-items: center;
   justify-content: center;
