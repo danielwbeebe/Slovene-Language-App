@@ -487,9 +487,9 @@ class QuizOne extends Component {
           </div>
 
           <div className="quiz-one-choices">
-            <button onClick={this.clickLeft} className="quiz-one-answer-left"><h4>{this.state.left}</h4></button>
-            <button onClick={this.clickCenter} className="quiz-one-answer-center"><h4>{this.state.center}</h4></button>
-            <button onClick={this.clickRight} className="quiz-one-answer-right"><h4>{this.state.right}</h4></button>
+            <button onClick={this.clickLeft} className="quiz-answer"><h4>{this.state.left}</h4></button>
+            <button onClick={this.clickCenter} className="quiz-answer"><h4>{this.state.center}</h4></button>
+            <button onClick={this.clickRight} className="quiz-answer"><h4>{this.state.right}</h4></button>
           </div>
         </div>
 

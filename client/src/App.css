@@ -416,7 +416,7 @@ a:focus { text-decoration: none; color: inherit; }
   color: black;
 }
 
-.quiz-one-question, .quiz-two-question {
+.quiz-one-question, .quiz-two-question, .quiz-three-question {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -433,13 +433,13 @@ a:focus { text-decoration: none; color: inherit; }
   line-height: 50px;
 }
 
-.quiz-one-choices, .quiz-two-choices {
+.quiz-one-choices, .quiz-two-choices, .quiz-three-choices {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.quiz-one-answer-left, .quiz-one-answer-center, .quiz-one-answer-right, .quiz-two-answer-left, .quiz-two-answer-center, .quiz-two-answer-right  {
+.quiz-answer {
   display: flex;
   flex-direction: column;
   justify-content: center;

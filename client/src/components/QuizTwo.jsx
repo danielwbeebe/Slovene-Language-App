@@ -33,10 +33,10 @@ class QuizTwo extends Component {
             <h3>{this.state.question}</h3>
           </div>
 
-          <div className="quiz-one-choices">
-            <button onClick={this.clickLeft} className="quiz-two-answer-left"><h4>{this.state.left}</h4></button>
-            <button onClick={this.clickCenter} className="quiz-two-answer-center"><h4>{this.state.center}</h4></button>
-            <button onClick={this.clickRight} className="quiz-two-answer-right"><h4>{this.state.right}</h4></button>
+          <div className="quiz-two-choices">
+            <button onClick={this.clickLeft} className="quiz-answer"><h4>{this.state.left}</h4></button>
+            <button onClick={this.clickCenter} className="quiz-answer"><h4>{this.state.center}</h4></button>
+            <button onClick={this.clickRight} className="quiz-answer"><h4>{this.state.right}</h4></button>
           </div>
         </div>
 

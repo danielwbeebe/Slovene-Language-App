@@ -28,7 +28,19 @@ class QuizThree extends Component {
         </div>
 
         <div className="quiz-three-main">
-          <h1>Quiz Three Page</h1>
+
+          <h2>Level Three: Days of the Week</h2>
+          <div className="quiz-three-question">
+            <h2>{this.state.number} of 10</h2>
+            <h3>{this.state.question}</h3>
+          </div>
+
+          <div className="quiz-three-choices">
+            <button onClick={this.clickLeft} className="quiz-answer"><h4>{this.state.left}</h4></button>
+            <button onClick={this.clickCenter} className="quiz-answer"><h4>{this.state.center}</h4></button>
+            <button onClick={this.clickRight} className="quiz-answer"><h4>{this.state.right}</h4></button>
+          </div>
+
         </div>
 
         <div className="quiz-three-footer">
