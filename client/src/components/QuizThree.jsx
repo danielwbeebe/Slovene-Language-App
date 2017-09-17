@@ -1,6 +1,18 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+import ringSound from './audio/ring.wav';
+import knockSound from './audio/knock.wav';
+
+import ponedeljek from './audio/ponedeljek.m4a';
+import torek from './audio/torek.m4a';
+import sreda from './audio/sreda.m4a';
+import cetrtek from './audio/cetrtek.m4a';
+import petek from './audio/petek.m4a';
+
+import sobota from './audio/sobota.m4a';
+import nedelja from './audio/nedelja.m4a';
+
 
 class QuizThree extends Component {
   constructor(){
