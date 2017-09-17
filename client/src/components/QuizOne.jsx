@@ -42,37 +42,28 @@ class QuizOne extends Component {
   }
 
   clickLeft() {
-    console.log(this.state.correct)
     if (this.state.correct==="left") {
-      console.log("correct!")
       this.checkCorrect();
     }
     else {
-      console.log("wrong!")
       this.isWrong();
     }
   }
 
   clickCenter() {
-    console.log(this.state.correct)
     if (this.state.correct==="center") {
-      console.log("correct!")
       this.checkCorrect();
     }
     else {
-      console.log("wrong!")
       this.isWrong();
     }
   }
 
   clickRight() {
-    console.log(this.state.correct)
     if (this.state.correct==="right") {
-      console.log("correct!")
       this.checkCorrect();
     }
     else {
-      console.log("wrong!")
       this.isWrong();
     }
   }
@@ -472,7 +463,7 @@ class QuizOne extends Component {
     }
   if (this.state.number===10) {
     this.setState({
-      question: "Congratulations! You Finished!",
+      question: "Congratulations! You Finished Quiz One!",
       left: " ",
       center: " ",
       right: "  ",

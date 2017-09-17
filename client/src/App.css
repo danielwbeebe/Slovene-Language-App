@@ -406,13 +406,13 @@ a:focus { text-decoration: none; color: inherit; }
   text-decoration: none;
 }
 
-.quiz-one-message {
+.quiz-one-message, .quiz-two-message {
   background-color: #625391;
   color: white;
   text-decoration: none;
 }
 
-.quiz-one-message:hover {
+.quiz-one-message:hover, .quiz-two-message:hover {
   color: #F88017;
 }
 
