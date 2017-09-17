@@ -455,7 +455,7 @@ a:focus { text-decoration: none; color: inherit; }
   padding: 2px 2px 2px 2px;
 }
 
-.quiz-one-answer-left:hover, .quiz-one-answer-center:hover, .quiz-one-answer-right:hover, .quiz-two-answer-left:hover, .quiz-two-answer-center:hover, .quiz-two-answer-right:hover {
+.quiz-answer:hover {
   color: white;
   background-color: #F88017;
 }
