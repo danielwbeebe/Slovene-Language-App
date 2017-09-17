@@ -30,33 +30,33 @@ class QuizOne extends Component {
     console.log(this.state.correct)
     if (this.state.correct==="left") {
       console.log("correct!")
+      this.checkCorrect();
     }
     else {
       console.log("wrong!")
     }
-    this.checkCorrect();
   }
 
   clickCenter() {
     console.log(this.state.correct)
     if (this.state.correct==="center") {
       console.log("correct!")
+      this.checkCorrect();
     }
     else {
       console.log("wrong!")
     }
-    this.checkCorrect();
   }
 
   clickRight() {
     console.log(this.state.correct)
     if (this.state.correct==="right") {
       console.log("correct!")
+      this.checkCorrect();
     }
     else {
       console.log("wrong!")
     }
-    this.checkCorrect();
   }
 
   checkCorrect() {
