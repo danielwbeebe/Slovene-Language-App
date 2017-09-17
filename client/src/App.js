@@ -17,7 +17,6 @@ import QuizOne from './components/QuizOne';
 import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
 
-// app.js used to route through app and maintain auth while doing so
 class App extends Component {
 
   constructor(){
@@ -110,9 +109,9 @@ class App extends Component {
           <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
           <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username} level={this.state.level} />} />
           <Route exact path="/about" render={() => <AboutApp />} />
-          <Route exact path="/quizone" render={() => <QuizOne />} />
-          <Route exact path="/quiztwo" render={() => <QuizTwo />} />
-          <Route exact path="/quizthree" render={() => <QuizThree />} />
+          <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
+          <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
+          <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />
           {this.redirectTo()}
         </div>
       </Router>

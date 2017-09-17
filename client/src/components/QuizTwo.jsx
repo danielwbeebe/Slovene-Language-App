@@ -23,6 +23,7 @@ class QuizTwo extends Component {
 
         <div className="quiz-two-header">
           <h1 className="quiz-two-message"><Link to="/main">slovolingo</Link></h1>
+          <h3>{this.props.username}</h3>
         </div>
 
         <div className="quiz-two-main">

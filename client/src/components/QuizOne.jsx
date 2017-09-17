@@ -476,6 +476,7 @@ class QuizOne extends Component {
       <div className="quiz-one">
         <div className="quiz-one-header">
           <h1 className="quiz-one-message"><Link to="/main">slovolingo</Link></h1>
+          <h3>{this.props.username}</h3>
         </div>
 
         <div className="quiz-one-main">
