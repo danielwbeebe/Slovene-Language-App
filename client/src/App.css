@@ -440,6 +440,7 @@ a:focus { text-decoration: none; color: inherit; }
   margin-left: 3vw;
   margin-top: 1vh;
   padding: 2px 2px 2px 2px;
+  line-height: 50px;
 }
 
 .quiz-one-choices {

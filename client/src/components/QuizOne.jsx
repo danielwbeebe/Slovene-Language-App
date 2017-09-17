@@ -363,6 +363,7 @@ class QuizOne extends Component {
         <div className="quiz-one-main">
           <h2>Level One: Biti ('to be')</h2>
           <div className="quiz-one-question">
+            <h2>{this.state.number} of 10</h2>
             <h3>{this.state.question}</h3>
           </div>
 
