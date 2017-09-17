@@ -19,67 +19,42 @@ class QuizOne extends Component {
     this.clickCenter = this.clickCenter.bind(this);
     this.clickRight = this.clickRight.bind(this);
     this.componentDidMount = this.componentDidMount.bind(this);
+    this.checkCorrect = this.checkCorrect.bind(this);
   }
 
   componentDidMount() {
-    console.log("component did mount");
     this.randomOrder();
   }
 
   clickLeft() {
-    console.log("You clicked left")
     this.setState({
       clicked: "left",
     })
-    if (this.state.correct==="left") {
-      console.log("The correct answer was left")
-    }
-    if (this.state.correct==="center") {
-      console.log("The correct answer was center")
-    }
-    if (this.state.correct==="right") {
-      console.log("The correct answer was right")
-    }
-    this.componentDidMount();
+    this.checkCorrect();
   }
 
   clickCenter() {
-    console.log("You clicked center")
     this.setState({
       clicked: "center",
     })
-    if (this.state.correct==="left") {
-      console.log("The correct answer was left")
-    }
-    if (this.state.correct==="center") {
-      console.log("The correct answer was center")
-    }
-    if (this.state.correct==="right") {
-      console.log("The correct answer was right")
-    }
-    this.componentDidMount();
+    this.checkCorrect();
   }
 
   clickRight() {
-    console.log("You clicked right")
     this.setState({
       clicked: "right",
     })
-    if (this.state.correct==="left") {
-      console.log("The correct answer was left")
-    }
-    if (this.state.correct==="center") {
-      console.log("The correct answer was center")
-    }
-    if (this.state.correct==="right") {
-      console.log("The correct answer was right")
-    }
+    this.checkCorrect();
+  }
+
+  checkCorrect() {
+    console.log(this.state.clicked)
+    console.log(this.state.correct)
     this.componentDidMount();
   }
 
   randomOrder() {
     var randNum = Math.floor(Math.random() * 3);
-    console.log(`Random number selected: ` + randNum)
 
 // question 1
     if ((this.state.number===0) && (randNum===0)) {
