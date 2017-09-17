@@ -508,6 +508,12 @@ p {
     flex-direction: column;
   }
 
+  .main-header {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+  }
+
   h1 {
     font-size: 30px;
   }
