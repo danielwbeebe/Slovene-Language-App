@@ -363,7 +363,14 @@ class QuizOne extends Component {
         right: "He is",
         correct: "right"
     })}
-
+  if (this.state.number===10) {
+    this.setState({
+      question: "Congratulations! You're Done!",
+      left: " ",
+      center: " ",
+      right: "  ",
+      correct: "  "
+    })}
   }
 
   render(){
