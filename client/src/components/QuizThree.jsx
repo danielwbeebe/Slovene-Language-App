@@ -31,7 +31,7 @@ class QuizThree extends Component {
 
           <h2>Level Three: Days of the Week</h2>
           <div className="quiz-three-question">
-            <h2>{this.state.number} of 10</h2>
+            <h2>{this.state.number} of 7</h2>
             <h3>{this.state.question}</h3>
           </div>
 

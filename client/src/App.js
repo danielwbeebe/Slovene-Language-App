@@ -12,7 +12,6 @@ import Login from './components/Login';
 
 // import components for using the app and taking quizzes
 import Main from './components/Main';
-import AboutApp from './components/AboutApp';
 import QuizOne from './components/QuizOne';
 import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
@@ -108,7 +107,6 @@ class App extends Component {
           <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit} />} />
           <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
           <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username} level={this.state.level} />} />
-          <Route exact path="/about" render={() => <AboutApp />} />
           <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />

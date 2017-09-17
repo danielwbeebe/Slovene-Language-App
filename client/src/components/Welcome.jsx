@@ -34,7 +34,7 @@ const Welcome = () => {
       </div>
 
       <div className="welcome-footer">
-       <a href="https://github.com/danielwbeebe" target="_blank"><h2>Created By Dan Beebe</h2></a>
+       <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
       </div>
 
     </div>
