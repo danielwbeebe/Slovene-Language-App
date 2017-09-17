@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Register extends Component{
 
@@ -17,11 +18,7 @@ class Register extends Component{
       <div className="register">
 
         <div className="register-header">
-
-          <div className="header-message">
-            <h1>slovolingo</h1>
-          </div>
-
+          <h1 className="register-message"><Link to="/">slovolingo</Link></h1>
         </div>
 
         <div className="register-main">

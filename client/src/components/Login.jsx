@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Login extends Component{
 
@@ -17,11 +18,7 @@ class Login extends Component{
       <div className="login">
 
         <div className="login-header">
-
-          <div className="login-message">
-            <h1>slovolingo</h1>
-          </div>
-
+            <h1 className="login-message"><Link to="/">slovolingo</Link></h1>
         </div>
 
         <div className="login-main">
