@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+import soundFile from './ring.wav';
+
 class QuizOne extends Component {
   constructor(){
     super();
@@ -60,6 +62,8 @@ class QuizOne extends Component {
   }
 
   checkCorrect() {
+    var audio = new Audio(soundFile);
+    audio.play();
     this.componentDidMount();
   }
 
