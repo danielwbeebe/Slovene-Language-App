@@ -271,119 +271,127 @@ class QuizTwo extends Component {
     audio.play();
     }
 
-// // question 6
-//     if ((this.state.number===5) && (randNum===0)) {
-//       this.setState({
-//         number: 6,
-//         question: "What does 'ti si' mean?",
-//         left: "You are (singular)",
-//         center: "You are (plural)",
-//         right: "You two are",
-//         correct: "left"
-//       })
-//     var audio = new Audio(tiSi);
-//     audio.play();
-//     }
-//     if ((this.state.number===5) && (randNum===1)){
-//       this.setState({
-//         number: 6,
-//         question: "What does 'ti si' mean?",
-//         left: "You are (plural)",
-//         center: "You are (singular)",
-//         right: "You two are",
-//         correct: "center"
-//       })
-//     var audio = new Audio(tiSi);
-//     audio.play();
-//     }
-//     if ((this.state.number===5) && (randNum===2)) {
-//       this.setState({
-//         number: 6,
-//         question: "What does 'ti si' mean?",
-//         left: "You two are",
-//         center: "You are (plural)",
-//         right: "You are (singular)",
-//         correct: "right"
-//     })
-//     var audio = new Audio(tiSi);
-//     audio.play();
-//     }
+// question 6
+    if ((this.state.number===5) && (randNum===0)) {
+      this.setState({
+        number: 6,
+        question: "What does 'dobro jutro' mean?",
+        left: "Good morning",
+        center: "Good evening",
+        right: "Good night",
+        correct: "left"
+      })
+    var audio = new Audio(dobroJutro);
+    audio.play();
+    }
+    if ((this.state.number===5) && (randNum===1)){
+      this.setState({
+        number: 6,
+        question: "What does 'dobro jutro' mean?",
+        left: "Good night",
+        center: "Good morning",
+        right: "Good evening",
+        correct: "center"
+      })
+    var audio = new Audio(dobroJutro);
+    audio.play();
+    }
+    if ((this.state.number===5) && (randNum===2)) {
+      this.setState({
+        number: 6,
+        question: "What does 'dobro jutro' mean?",
+        left: "Good evening",
+        center: "Good night",
+        right: "Good morning",
+        correct: "right"
+    })
+    var audio = new Audio(dobroJutro);
+    audio.play();
+    }
 
-// // question 7
-//     if ((this.state.number===6) && (randNum===0)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'midva sva' mean?",
-//         left: "We two are",
-//         center: "I am",
-//         right: "We are",
-//         correct: "left"
-//       })
-//     var audio = new Audio(midvaSva);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===1)){
-//       this.setState({
-//         number: 7,
-//         question: "What does 'midva sva' mean?",
-//         left: "We are",
-//         center: "We two are",
-//         right: "I am",
-//         correct: "center"
-//       })
-//     var audio = new Audio(midvaSva);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===2)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'midva sva' mean?",
-//         left: "I am",
-//         center: "We are",
-//         right: "We two are",
-//         correct: "right"
-//     })
-//     var audio = new Audio(midvaSva);
-//     audio.play();
-//     }
+// question 7
+    if ((this.state.number===6) && (randNum===0)) {
+      this.setState({
+        number: 7,
+        question: "What does 'dober večer' mean?",
+        left: "Good evening",
+        center: "Good night",
+        right: "Good morning",
+        correct: "left"
+      })
+    var audio = new Audio(doberVecer);
+    audio.play();
+    }
+    if ((this.state.number===6) && (randNum===1)){
+      this.setState({
+        number: 7,
+        question: "What does 'dober večer' mean?",
+        left: "Good morning",
+        center: "Good evening",
+        right: "Good night",
+        correct: "center"
+      })
+    var audio = new Audio(doberVecer);
+    audio.play();
+    }
+    if ((this.state.number===6) && (randNum===2)) {
+      this.setState({
+        number: 7,
+        question: "What does 'dober večer' mean?",
+        left: "Good night",
+        center: "Good morning",
+        right: "Good evening",
+        correct: "right"
+    })
+    var audio = new Audio(doberVecer);
+    audio.play();
+    }
 
-// // question 8
-//     if ((this.state.number===7) && (randNum===0)) {
-//       this.setState({
-//         number: 8,
-//         question: "What does 'vi ste' mean?",
-//         left: "You are (plural)",
-//         center: "You are (singular)",
-//         right: "You two are",
-//         correct: "left"
-//       })
-//     var audio = new Audio(viSte);
-//     audio.play();
-//     }
-//     if ((this.state.number===7) && (randNum===1)){
-//       this.setState({
-//         number: 8,
-//         question: "What does 'vi ste' mean?",
-//         left: "You two are",
-//         center: "You are (plural)",
-//         right: "You are (singular)",
-//         correct: "center"
-//       })
-//     var audio = new Audio(viSte);
-//     audio.play();
-//     }
-//     if ((this.state.number===7) && (randNum===2)) {
-//       this.setState({
-//         number: 8,
-//         question: "What does 'vi ste' mean?",
-//         left: "You are (singular)",
-//         center: "You two are",
-//         right: "You are (plural)",
-//         correct: "right"
-//     })
-//     var audio = new Audio(viSte);
-//     audio.play();
-//     }
+// question 8
+    if ((this.state.number===7) && (randNum===0)) {
+      this.setState({
+        number: 8,
+        question: "What does 'lahko noč' mean?",
+        left: "Good night",
+        center: "Good morning",
+        right: "Good evening",
+        correct: "left"
+      })
+    var audio = new Audio(lahkoNoc);
+    audio.play();
+    }
+    if ((this.state.number===7) && (randNum===1)){
+      this.setState({
+        number: 8,
+        question: "What does 'lahko noč' mean?",
+        left: "Good evening",
+        center: "Good night",
+        right: "Good morning",
+        correct: "center"
+      })
+    var audio = new Audio(lahkoNoc);
+    audio.play();
+    }
+    if ((this.state.number===7) && (randNum===2)) {
+      this.setState({
+        number: 8,
+        question: "What does 'lahko noč' mean?",
+        left: "Good morning",
+        center: "Good evening",
+        right: "Good night",
+        correct: "right"
+    })
+    var audio = new Audio(lahkoNoc);
+    audio.play();
+    }
+    if (this.state.number===8) {
+    this.setState({
+      question: "Congratulations! You Finished Quiz Two!",
+      left: " ",
+      center: " ",
+      right: "  ",
+      correct: "  "
+    })}
   }
 
   render(){
