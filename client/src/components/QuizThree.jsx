@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 const QuizThree = () => {
@@ -7,11 +8,7 @@ const QuizThree = () => {
     <div className="quiz-three">
 
       <div className="quiz-three-header">
-
-        <div className="quiz-three-message">
-          <h1>slovolingo</h1>
-        </div>
-
+        <h1 className="quiz-three-message"><Link to="/main">slovolingo</Link></h1>
       </div>
 
       <div className="quiz-three-main">
