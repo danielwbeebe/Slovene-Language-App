@@ -346,7 +346,7 @@ a:focus { text-decoration: none; color: inherit; }
 .main-upper-right {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #BDAEE8;
   color: white;
@@ -358,11 +358,7 @@ a:focus { text-decoration: none; color: inherit; }
 }
 
 .main-welcome-username {
-  padding-top: 30px;
-}
-
-.main-level {
-  padding-bottom: 30px;
+  line-height: 60px;
 }
 
 .main-lower-right {
