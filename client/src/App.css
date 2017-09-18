@@ -342,7 +342,7 @@ a:focus { text-decoration: none; color: inherit; }
   color: white;
   border-radius: 20px;
   min-width: 20vw;
-  min-height: 40vh;
+  min-height: 30vh;
   margin-right: 3vw;
   margin-left: 3vw;
 }
@@ -360,7 +360,7 @@ a:focus { text-decoration: none; color: inherit; }
   color: white;
   border-radius: 20px;
   min-width: 20vw;
-  min-height: 19vh;
+  min-height: 29vh;
   margin-right: 3vw;
   margin-left: 3vw;
   margin-top: 1vh;

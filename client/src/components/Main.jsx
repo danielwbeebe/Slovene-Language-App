@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+
+import Word from './Word';
 
 const Main = (props) => {
   console.log(props)
+
   return (
     <div className="main-page">
       <div className="main-header">
@@ -16,7 +19,7 @@ const Main = (props) => {
 
       <div className="main-main">
         <div className="main-left">
-          <h1>Slovene Test Levels</h1>
+          <h1>Slovene Tests</h1>
           <Link to="/quizone"><button className="quiz-entry"><h4>1</h4></button></Link>
           <Link to="/quiztwo"><button className="quiz-entry"><h4>2</h4></button></Link>
           <Link to="/quizthree"><button className="quiz-entry"><h4>3</h4></button></Link>
@@ -29,12 +32,10 @@ const Main = (props) => {
             </div>
             <div className="main-level">
               <h3>You are user number {props.id}</h3>
-              <h3>You're at Level {props.level}</h3>
             </div>
           </div>
           <div className="main-lower-right">
-            <h2>Random Word to Learn</h2>
-            <h4>"Word" means: translation</h4>
+           <Word />
           </div>
         </div>
 
