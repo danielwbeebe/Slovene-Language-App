@@ -128,7 +128,7 @@ class QuizThree extends Component {
         right: "Wednesday",
         correct: "left"
       })
-    var audio = new Audio(petek);
+    audio = new Audio(petek);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===1)){
@@ -140,7 +140,7 @@ class QuizThree extends Component {
         right: "Monday",
         correct: "center"
       })
-    var audio = new Audio(petek);
+    audio = new Audio(petek);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===2)) {
@@ -152,7 +152,7 @@ class QuizThree extends Component {
         right: "Friday",
         correct: "right"
     })
-    var audio = new Audio(petek);
+    audio = new Audio(petek);
     audio.play();
     }
 
@@ -166,7 +166,7 @@ class QuizThree extends Component {
         right: "Sunday",
         correct: "left"
       })
-    var audio = new Audio(sobota);
+    audio = new Audio(sobota);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===1)){
@@ -178,7 +178,7 @@ class QuizThree extends Component {
         right: "Friday",
         correct: "center"
       })
-    var audio = new Audio(sobota);
+    audio = new Audio(sobota);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===2)) {
@@ -190,7 +190,7 @@ class QuizThree extends Component {
         right: "Saturday",
         correct: "right"
     })
-    var audio = new Audio(sobota);
+    audio = new Audio(sobota);
     audio.play();
     }
 
@@ -204,7 +204,7 @@ class QuizThree extends Component {
         right: "Thursday",
         correct: "left"
       })
-    var audio = new Audio(torek);
+    audio = new Audio(torek);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===1)){
@@ -216,7 +216,7 @@ class QuizThree extends Component {
         right: "Wednesday",
         correct: "center"
       })
-    var audio = new Audio(torek);
+    audio = new Audio(torek);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===2)) {
@@ -228,7 +228,7 @@ class QuizThree extends Component {
         right: "Tuesday",
         correct: "right"
     })
-    var audio = new Audio(torek);
+    audio = new Audio(torek);
     audio.play();
     }
 
@@ -242,7 +242,7 @@ class QuizThree extends Component {
         right: "Tuesday",
         correct: "left"
       })
-    var audio = new Audio(cetrtek);
+    audio = new Audio(cetrtek);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===1)){
@@ -254,7 +254,7 @@ class QuizThree extends Component {
         right: "Monday",
         correct: "center"
       })
-    var audio = new Audio(cetrtek);
+    audio = new Audio(cetrtek);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===2)) {
@@ -266,7 +266,7 @@ class QuizThree extends Component {
         right: "Thursday",
         correct: "right"
     })
-    var audio = new Audio(cetrtek);
+    audio = new Audio(cetrtek);
     audio.play();
     }
 
@@ -280,7 +280,7 @@ class QuizThree extends Component {
         right: "Friday",
         correct: "left"
       })
-    var audio = new Audio(sreda);
+    audio = new Audio(sreda);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===1)){
@@ -292,7 +292,7 @@ class QuizThree extends Component {
         right: "Thursday",
         correct: "center"
       })
-    var audio = new Audio(sreda);
+    audio = new Audio(sreda);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===2)) {
@@ -304,7 +304,7 @@ class QuizThree extends Component {
         right: "Wednesday",
         correct: "right"
     })
-    var audio = new Audio(sreda);
+    audio = new Audio(sreda);
     audio.play();
     }
 
@@ -318,7 +318,7 @@ class QuizThree extends Component {
         right: "Saturday",
         correct: "left"
       })
-    var audio = new Audio(nedelja);
+    audio = new Audio(nedelja);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===1)){
@@ -330,7 +330,7 @@ class QuizThree extends Component {
         right: "Monday",
         correct: "center"
       })
-    var audio = new Audio(nedelja);
+    audio = new Audio(nedelja);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===2)) {
@@ -342,7 +342,7 @@ class QuizThree extends Component {
         right: "Sunday",
         correct: "right"
     })
-    var audio = new Audio(nedelja);
+    audio = new Audio(nedelja);
     audio.play();
     }
 

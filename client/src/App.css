@@ -308,8 +308,6 @@ a:focus { text-decoration: none; color: inherit; }
   border-radius: 35px;
 }
 
-
-
 .main-logout-button:hover {
   color: white;
   background-color: #F88017;
@@ -526,6 +524,15 @@ p {
     flex-direction: column;
     justify-content: center;
     padding-top: 5px;
+  }
+
+  .main-logout {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  .main-logout-button {
+    padding: 3px 7px 3px 7px;
   }
 
   h1 {
