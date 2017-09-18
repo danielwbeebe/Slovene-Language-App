@@ -142,7 +142,7 @@ a:focus { text-decoration: none; color: inherit; }
   background-color: white;
 }
 
-.welcome-footer {
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,15 +173,6 @@ a:focus { text-decoration: none; color: inherit; }
   align-items: center;
   background-color: white;
   color: black;
-}
-
-.register-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 10vh;
-  background-color: #625391;
-  color: white;
 }
 
 .sign-up {
@@ -237,15 +228,6 @@ a:focus { text-decoration: none; color: inherit; }
   align-items: center;
   background-color: white;
   color: black;
-}
-
-.login-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 10vh;
-  background-color: #625391;
-  color: white;
 }
 
 .login-title {
@@ -471,16 +453,6 @@ a:focus { text-decoration: none; color: inherit; }
   color: white;
   background-color: #F88017;
 }
-
-.quiz-one-footer, .quiz-two-footer, .quiz-three-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 10vh;
-  background-color: #625391;
-  color: white;
-}
-
 
 /*font sizes*/
 h1 {

@@ -493,7 +493,7 @@ class QuizOne extends Component {
           </div>
         </div>
 
-        <div className="quiz-one-footer">
+        <div className="footer">
           <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import ringSound from './audio/ring.wav';
 import knockSound from './audio/knock.wav';
@@ -382,7 +382,7 @@ class QuizThree extends Component {
 
         </div>
 
-        <div className="quiz-three-footer">
+        <div className="footer">
             <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
         </div>
 

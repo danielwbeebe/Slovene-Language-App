@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Word from './Word';
@@ -32,6 +32,7 @@ const Main = (props) => {
             </div>
             <div className="main-level">
               <h3>You are user number {props.id}</h3>
+              <h3>Your level is {props.level}</h3>
             </div>
           </div>
           <div className="main-lower-right">
@@ -41,7 +42,7 @@ const Main = (props) => {
 
       </div>
 
-      <div className="main-footer">
+      <div className="footer">
           <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
       </div>
 
