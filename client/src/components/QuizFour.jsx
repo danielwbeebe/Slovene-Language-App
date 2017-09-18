@@ -464,7 +464,7 @@ class QuizFour extends Component {
 
     if (this.state.number===10) {
     this.setState({
-      question: "Congratulations! You Finished Quiz Three!",
+      question: "Congratulations! You Finished Quiz Four!",
       left: " ",
       center: "Click 'slovolingo' above to return home",
       right: "  ",
