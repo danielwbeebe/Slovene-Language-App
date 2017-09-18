@@ -130,7 +130,7 @@ class QuizOne extends Component {
         right: "He is",
         correct: "left"
       })
-    var audio = new Audio(oniSo);
+    audio = new Audio(oniSo);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===1)){
@@ -142,7 +142,7 @@ class QuizOne extends Component {
         right: "I am",
         correct: "center"
       })
-    var audio = new Audio(oniSo);
+    audio = new Audio(oniSo);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===2)) {
@@ -154,7 +154,7 @@ class QuizOne extends Component {
         right: "They are",
         correct: "right"
     })
-    var audio = new Audio(oniSo);
+    audio = new Audio(oniSo);
     audio.play();
     }
 
@@ -168,7 +168,7 @@ class QuizOne extends Component {
         right: "She is",
         correct: "left"
       })
-    var audio = new Audio(vidvaSta);
+    audio = new Audio(vidvaSta);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===1)){
@@ -180,7 +180,7 @@ class QuizOne extends Component {
         right: "You are",
         correct: "center"
       })
-    var audio = new Audio(vidvaSta);
+    audio = new Audio(vidvaSta);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===2)) {
@@ -192,7 +192,7 @@ class QuizOne extends Component {
         right: "You two are",
         correct: "right"
     })
-    var audio = new Audio(vidvaSta);
+    audio = new Audio(vidvaSta);
     audio.play();
     }
 
@@ -206,7 +206,7 @@ class QuizOne extends Component {
         right: "They are",
         correct: "left"
       })
-    var audio = new Audio(onaJe);
+    audio = new Audio(onaJe);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===1)){
@@ -218,7 +218,7 @@ class QuizOne extends Component {
         right: "He is",
         correct: "center"
       })
-    var audio = new Audio(onaJe);
+    audio = new Audio(onaJe);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===2)) {
@@ -230,7 +230,7 @@ class QuizOne extends Component {
         right: "She is",
         correct: "right"
     })
-    var audio = new Audio(onaJe);
+    audio = new Audio(onaJe);
     audio.play();
     }
 
@@ -244,7 +244,7 @@ class QuizOne extends Component {
         right: "They are",
         correct: "left"
       })
-    var audio = new Audio(miSmo);
+    audio = new Audio(miSmo);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===1)){
@@ -256,7 +256,7 @@ class QuizOne extends Component {
         right: "I am",
         correct: "center"
       })
-    var audio = new Audio(miSmo);
+    audio = new Audio(miSmo);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===2)) {
@@ -268,7 +268,7 @@ class QuizOne extends Component {
         right: "We are",
         correct: "right"
     })
-    var audio = new Audio(miSmo);
+    audio = new Audio(miSmo);
     audio.play();
     }
 
@@ -282,7 +282,7 @@ class QuizOne extends Component {
         right: "You two are",
         correct: "left"
       })
-    var audio = new Audio(tiSi);
+    audio = new Audio(tiSi);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===1)){
@@ -294,7 +294,7 @@ class QuizOne extends Component {
         right: "You two are",
         correct: "center"
       })
-    var audio = new Audio(tiSi);
+    audio = new Audio(tiSi);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===2)) {
@@ -306,7 +306,7 @@ class QuizOne extends Component {
         right: "You are (singular)",
         correct: "right"
     })
-    var audio = new Audio(tiSi);
+    audio = new Audio(tiSi);
     audio.play();
     }
 
@@ -320,7 +320,7 @@ class QuizOne extends Component {
         right: "We are",
         correct: "left"
       })
-    var audio = new Audio(midvaSva);
+    audio = new Audio(midvaSva);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===1)){
@@ -332,7 +332,7 @@ class QuizOne extends Component {
         right: "I am",
         correct: "center"
       })
-    var audio = new Audio(midvaSva);
+    audio = new Audio(midvaSva);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===2)) {
@@ -344,7 +344,7 @@ class QuizOne extends Component {
         right: "We two are",
         correct: "right"
     })
-    var audio = new Audio(midvaSva);
+    audio = new Audio(midvaSva);
     audio.play();
     }
 
@@ -358,7 +358,7 @@ class QuizOne extends Component {
         right: "You two are",
         correct: "left"
       })
-    var audio = new Audio(viSte);
+    audio = new Audio(viSte);
     audio.play();
     }
     if ((this.state.number===7) && (randNum===1)){
@@ -370,7 +370,7 @@ class QuizOne extends Component {
         right: "You are (singular)",
         correct: "center"
       })
-    var audio = new Audio(viSte);
+    audio = new Audio(viSte);
     audio.play();
     }
     if ((this.state.number===7) && (randNum===2)) {
@@ -382,7 +382,7 @@ class QuizOne extends Component {
         right: "You are (plural)",
         correct: "right"
     })
-    var audio = new Audio(viSte);
+    audio = new Audio(viSte);
     audio.play();
     }
 
@@ -396,7 +396,7 @@ class QuizOne extends Component {
         right: "He is",
         correct: "left"
       })
-    var audio = new Audio(onadvaSta);
+    audio = new Audio(onadvaSta);
     audio.play();
     }
     if ((this.state.number===8) && (randNum===1)){
@@ -408,7 +408,7 @@ class QuizOne extends Component {
         right: "They are",
         correct: "center"
       })
-    var audio = new Audio(onadvaSta);
+    audio = new Audio(onadvaSta);
     audio.play();
     }
     if ((this.state.number===8) && (randNum===2)) {
@@ -420,7 +420,7 @@ class QuizOne extends Component {
         right: "They two are",
         correct: "right"
     })
-    var audio = new Audio(onadvaSta);
+    audio = new Audio(onadvaSta);
     audio.play();
   }
 
@@ -434,7 +434,7 @@ class QuizOne extends Component {
         right: "They are",
         correct: "left"
       })
-    var audio = new Audio(onje);
+    audio = new Audio(onje);
     audio.play();
     }
     if ((this.state.number===9) && (randNum===1)){
@@ -446,7 +446,7 @@ class QuizOne extends Component {
         right: "She is",
         correct: "center"
       })
-    var audio = new Audio(onje);
+    audio = new Audio(onje);
     audio.play();
     }
     if ((this.state.number===9) && (randNum===2)) {
@@ -458,7 +458,7 @@ class QuizOne extends Component {
         right: "He is",
         correct: "right"
     })
-    var audio = new Audio(onje);
+    audio = new Audio(onje);
     audio.play();
     }
   if (this.state.number===10) {
