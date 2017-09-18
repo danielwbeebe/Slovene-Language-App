@@ -123,7 +123,7 @@ class QuizTwo extends Component {
     if ((this.state.number===1) && (randNum===0)) {
       this.setState({
         number: 2,
-        question: "What does 'zivjo' mean?",
+        question: "What does 'živjo' mean?",
         left: "Hi",
         center: "Hello",
         right: "Bye",
@@ -135,7 +135,7 @@ class QuizTwo extends Component {
     if ((this.state.number===1) && (randNum===1)){
       this.setState({
         number: 2,
-        question: "What does 'zivjo' mean?",
+        question: "What does 'živjo' mean?",
         left: "Bye",
         center: "Hi",
         right: "Hello",
@@ -147,7 +147,7 @@ class QuizTwo extends Component {
     if ((this.state.number===1) && (randNum===2)) {
       this.setState({
         number: 2,
-        question: "What does 'zivjo' mean?",
+        question: "What does 'živjo' mean?",
         left: "Hello",
         center: "Bye",
         right: "Hi",
