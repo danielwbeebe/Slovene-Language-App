@@ -15,6 +15,7 @@ import Main from './components/Main';
 import QuizOne from './components/QuizOne';
 import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
+import QuizFour from './components/QuizTFour';
 
 class App extends Component {
 
@@ -111,6 +112,7 @@ class App extends Component {
           <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />
+          <Route exact path="/quizfour" render={() => <QuizFour handleRedirect={this.handleRedirect} username={this.state.username} />} />
           {this.redirectTo()}
         </div>
       </Router>
