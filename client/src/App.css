@@ -364,6 +364,16 @@ a:focus { text-decoration: none; color: inherit; }
   margin-top: 1vh;
 }
 
+.random-word {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.random-word-intro {
+  padding-bottom: 10px;
+}
+
 .quiz-entry {
   border-radius: 50%;
   background-color: #F88017;
