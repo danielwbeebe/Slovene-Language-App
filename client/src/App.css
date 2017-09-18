@@ -321,7 +321,7 @@ a:focus { text-decoration: none; color: inherit; }
 .main-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #BDAEE8;
   color: white;
@@ -329,6 +329,37 @@ a:focus { text-decoration: none; color: inherit; }
   min-width: 55vw;
   min-height: 60vh;
   margin-left: 3vw;
+}
+
+.main-left-upper {
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-left-lower {
+  display: flex;
+  flex-direction: row;
+  min-height: 40vh;
+}
+
+.main-left-left {
+  display: flex;
+  flex-direction: column;
+  min-width: 25vw;
+  justify-content: space-around;
+  padding-left: 20px;
+  line-height: 40px;
+}
+
+.main-left-right {
+  display: flex;
+  flex-direction: column;
+  min-width: 30vw;
+  justify-content: space-around;
 }
 
 .main-upper-right {
@@ -536,6 +567,11 @@ p {
     padding: 3px 7px 3px 7px;
   }
 
+  .main-left-left {
+    padding-left: 15px;
+    line-height: 20px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -545,7 +581,7 @@ p {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h4 {

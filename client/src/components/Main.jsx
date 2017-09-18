@@ -19,10 +19,23 @@ const Main = (props) => {
 
       <div className="main-main">
         <div className="main-left">
-          <h1>Slovene Tests</h1>
-          <Link to="/quizone"><button className="quiz-entry"><h4>1</h4></button></Link>
-          <Link to="/quiztwo"><button className="quiz-entry"><h4>2</h4></button></Link>
-          <Link to="/quizthree"><button className="quiz-entry"><h4>3</h4></button></Link>
+
+          <div className="main-left-upper">
+            <h1>Slovene Tests</h1>
+          </div>
+
+          <div className="main-left-lower">
+            <div className="main-left-left">
+              <h3>Click any number to take a quiz - learn by making mistakes and retry each quiz until you've mastered the material.</h3>
+            </div>
+
+            <div className="main-left-right">
+              <Link to="/quizone"><button className="quiz-entry"><h4>1</h4></button></Link>
+              <Link to="/quiztwo"><button className="quiz-entry"><h4>2</h4></button></Link>
+              <Link to="/quizthree"><button className="quiz-entry"><h4>3</h4></button></Link>
+            </div>
+          </div>
+
         </div>
 
         <div className="main-right">
@@ -32,7 +45,6 @@ const Main = (props) => {
             </div>
             <div className="main-level">
               <h3>You are user number {props.id}</h3>
-              <h3>Your level is {props.level}</h3>
             </div>
           </div>
           <div className="main-lower-right">
