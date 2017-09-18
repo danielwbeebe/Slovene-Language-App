@@ -13,7 +13,7 @@ const Main = (props) => {
           <h1>slovolingo</h1>
         </div>
         <div className="main-logout">
-          <Link to="/"><button className="main-logout-button"><p>Logout</p></button></Link>
+          <a className="main-logout-button" href='/'>Logout</a>
         </div>
       </div>
 

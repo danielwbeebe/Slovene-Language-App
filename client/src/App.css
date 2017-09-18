@@ -120,6 +120,11 @@ a:focus { text-decoration: none; color: inherit; }
   border-radius: 35px;
 }
 
+.login-button p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .login-button:hover {
   color: white;
   background-color: #F88017;
@@ -289,12 +294,21 @@ a:focus { text-decoration: none; color: inherit; }
   color: white;
 }
 
+.main-logout {
+  font-weight: 600;
+  color: #F88017;
+  font-size: 18px;
+}
+
 .main-logout-button {
   background-color: white;
   color: #F88017;
   width: 100px;
+  padding: 5px 10px 5px 10px;
   border-radius: 35px;
 }
+
+
 
 .main-logout-button:hover {
   color: white;
@@ -508,7 +522,7 @@ p {
     flex-direction: column;
   }
 
-  .main-header {
+  .main-header, .quiz-one-header, .quiz-two-header, .quiz-three-header {
     flex-direction: column;
     justify-content: center;
     padding-top: 5px;
