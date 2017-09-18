@@ -46,7 +46,7 @@ const Main = (props) => {
             </div>
             <div className="main-level">
               <h3>Your level is {props.level}</h3>
-              <h4>Feel comfortable with your progress for this visit? Hit the 'Level Up' button and next time you'll be levelled up!</h4>
+              <h4>Feel comfortable with your progress for this visit? Hit the 'Level Up' button once and next time you'll be a level higher!</h4>
               <form onSubmit={(e) => props.plusOne(e)}>
                 <input type="submit" value='Level Up' className="level-up-button"/>
               </form>
