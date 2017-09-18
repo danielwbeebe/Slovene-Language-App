@@ -151,6 +151,10 @@ a:focus { text-decoration: none; color: inherit; }
   color: white;
 }
 
+.footer:hover {
+  color: #F88017;
+}
+
 /*register page*/
 .register-header {
   display: flex;
