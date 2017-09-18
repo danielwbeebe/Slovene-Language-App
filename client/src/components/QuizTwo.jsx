@@ -129,7 +129,7 @@ class QuizTwo extends Component {
         right: "Bye",
         correct: "left"
       })
-    var audio = new Audio(zivjo);
+    audio = new Audio(zivjo);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===1)){
@@ -141,7 +141,7 @@ class QuizTwo extends Component {
         right: "Hello",
         correct: "center"
       })
-    var audio = new Audio(zivjo);
+    audio = new Audio(zivjo);
     audio.play();
     }
     if ((this.state.number===1) && (randNum===2)) {
@@ -153,7 +153,7 @@ class QuizTwo extends Component {
         right: "Hi",
         correct: "right"
     })
-    var audio = new Audio(zivjo);
+    audio = new Audio(zivjo);
     audio.play();
     }
 
@@ -167,7 +167,7 @@ class QuizTwo extends Component {
         right: "Hello",
         correct: "left"
       })
-    var audio = new Audio(naSvidenje);
+    audio = new Audio(naSvidenje);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===1)){
@@ -179,7 +179,7 @@ class QuizTwo extends Component {
         right: "Bye",
         correct: "center"
       })
-    var audio = new Audio(naSvidenje);
+    audio = new Audio(naSvidenje);
     audio.play();
     }
     if ((this.state.number===2) && (randNum===2)) {
@@ -191,7 +191,7 @@ class QuizTwo extends Component {
         right: "Good-bye",
         correct: "right"
     })
-    var audio = new Audio(naSvidenje);
+    audio = new Audio(naSvidenje);
     audio.play();
     }
 
@@ -205,7 +205,7 @@ class QuizTwo extends Component {
         right: "Hi",
         correct: "left"
       })
-    var audio = new Audio(zdravo);
+    audio = new Audio(zdravo);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===1)){
@@ -217,7 +217,7 @@ class QuizTwo extends Component {
         right: "Good-bye",
         correct: "center"
       })
-    var audio = new Audio(zdravo);
+    audio = new Audio(zdravo);
     audio.play();
     }
     if ((this.state.number===3) && (randNum===2)) {
@@ -229,7 +229,7 @@ class QuizTwo extends Component {
         right: "Bye",
         correct: "right"
     })
-    var audio = new Audio(zdravo);
+    audio = new Audio(zdravo);
     audio.play();
     }
 
@@ -243,7 +243,7 @@ class QuizTwo extends Component {
         right: "Hi",
         correct: "left"
       })
-    var audio = new Audio(adijo);
+    audio = new Audio(adijo);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===1)){
@@ -255,7 +255,7 @@ class QuizTwo extends Component {
         right: "Good-bye",
         correct: "center"
       })
-    var audio = new Audio(adijo);
+    audio = new Audio(adijo);
     audio.play();
     }
     if ((this.state.number===4) && (randNum===2)) {
@@ -267,7 +267,7 @@ class QuizTwo extends Component {
         right: "Bye",
         correct: "right"
     })
-    var audio = new Audio(adijo);
+    audio = new Audio(adijo);
     audio.play();
     }
 
@@ -281,7 +281,7 @@ class QuizTwo extends Component {
         right: "Good night",
         correct: "left"
       })
-    var audio = new Audio(dobroJutro);
+    audio = new Audio(dobroJutro);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===1)){
@@ -293,7 +293,7 @@ class QuizTwo extends Component {
         right: "Good evening",
         correct: "center"
       })
-    var audio = new Audio(dobroJutro);
+    audio = new Audio(dobroJutro);
     audio.play();
     }
     if ((this.state.number===5) && (randNum===2)) {
@@ -305,7 +305,7 @@ class QuizTwo extends Component {
         right: "Good morning",
         correct: "right"
     })
-    var audio = new Audio(dobroJutro);
+    audio = new Audio(dobroJutro);
     audio.play();
     }
 
@@ -319,7 +319,7 @@ class QuizTwo extends Component {
         right: "Good morning",
         correct: "left"
       })
-    var audio = new Audio(doberVecer);
+    audio = new Audio(doberVecer);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===1)){
@@ -331,7 +331,7 @@ class QuizTwo extends Component {
         right: "Good night",
         correct: "center"
       })
-    var audio = new Audio(doberVecer);
+    audio = new Audio(doberVecer);
     audio.play();
     }
     if ((this.state.number===6) && (randNum===2)) {
@@ -343,7 +343,7 @@ class QuizTwo extends Component {
         right: "Good evening",
         correct: "right"
     })
-    var audio = new Audio(doberVecer);
+    audio = new Audio(doberVecer);
     audio.play();
     }
 
@@ -357,7 +357,7 @@ class QuizTwo extends Component {
         right: "Good evening",
         correct: "left"
       })
-    var audio = new Audio(lahkoNoc);
+    audio = new Audio(lahkoNoc);
     audio.play();
     }
     if ((this.state.number===7) && (randNum===1)){
@@ -369,7 +369,7 @@ class QuizTwo extends Component {
         right: "Good morning",
         correct: "center"
       })
-    var audio = new Audio(lahkoNoc);
+    audio = new Audio(lahkoNoc);
     audio.play();
     }
     if ((this.state.number===7) && (randNum===2)) {
@@ -381,7 +381,7 @@ class QuizTwo extends Component {
         right: "Good night",
         correct: "right"
     })
-    var audio = new Audio(lahkoNoc);
+    audio = new Audio(lahkoNoc);
     audio.play();
     }
     if (this.state.number===8) {
