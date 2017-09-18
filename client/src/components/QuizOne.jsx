@@ -465,7 +465,7 @@ class QuizOne extends Component {
     this.setState({
       question: "Congratulations! You Finished Quiz One!",
       left: " ",
-      center: " ",
+      center: "Click 'slovolingo' above to return home",
       right: "  ",
       correct: "  "
     })}

@@ -28,4 +28,20 @@ usersController.create = (req, res) => {
     })
 };
 
+usersController.update = (req, res) => {
+    console.log(req.body)
+    User.update({
+        user_id: req.body.user_id,
+        // to change level
+        level: req.body.options.level,
+    }, req.params.id)
+    .then(card => {
+        console.log(`Updated user level`)
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({error: err});
+    })
+}
+
 module.exports = usersController;

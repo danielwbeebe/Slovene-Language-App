@@ -28,6 +28,7 @@ const Main = (props) => {
               <h2>Welcome, {props.username}</h2>
             </div>
             <div className="main-level">
+              <h3>You are user number {props.id}</h3>
               <h3>You're at Level {props.level}</h3>
             </div>
           </div>

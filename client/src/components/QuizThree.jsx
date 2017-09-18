@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 
 import ringSound from './audio/ring.wav';
 import knockSound from './audio/knock.wav';
@@ -350,7 +350,7 @@ class QuizThree extends Component {
     this.setState({
       question: "Congratulations! You Finished Quiz Three!",
       left: " ",
-      center: " ",
+      center: "Click 'slovolingo' above to return home",
       right: "  ",
       correct: "  "
     })}

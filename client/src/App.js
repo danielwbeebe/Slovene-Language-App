@@ -73,6 +73,7 @@ class App extends Component {
       redirecting: path,
       username: this.state.user.username,
       level: this.state.user.level,
+      id: this.state.user.id,
     })
     console.log(`The path is: ` + path)
     console.log(`The user is ` + this.state.user.username)
@@ -106,7 +107,7 @@ class App extends Component {
           <Route exact path="/" render={() => <Welcome />} />
           <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit} />} />
           <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
-          <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username} level={this.state.level} />} />
+          <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username} id={this.state.id} level={this.state.level} />} />
           <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />
