@@ -21,7 +21,7 @@ const Main = (props) => {
         <div className="main-left">
 
           <div className="main-left-upper">
-            <h1>Slovene Tests</h1>
+            <h1>Slovene Quizzes</h1>
           </div>
 
           <div className="main-left-lower">
