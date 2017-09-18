@@ -110,7 +110,7 @@ class QuizFour extends Component {
     if ((this.state.number===0) && (randNum===2)) {
       this.setState({
         number: 1,
-        question: "What does 'ponedeljek' mean?",
+        question: "What does 'tri' mean?",
         left: "Two",
         center: "Four",
         right: "Three",
@@ -120,349 +120,349 @@ class QuizFour extends Component {
     audio.play();
     }
 
-// // question 2
-//     if ((this.state.number===1) && (randNum===0)) {
-//       this.setState({
-//         number: 2,
-//         question: "What does 'petek' mean?",
-//         left: "Friday",
-//         center: "Monday",
-//         right: "Wednesday",
-//         correct: "left"
-//       })
-//     audio = new Audio(petek);
-//     audio.play();
-//     }
-//     if ((this.state.number===1) && (randNum===1)){
-//       this.setState({
-//         number: 2,
-//         question: "What does 'petek' mean?",
-//         left: "Wednesday",
-//         center: "Friday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(petek);
-//     audio.play();
-//     }
-//     if ((this.state.number===1) && (randNum===2)) {
-//       this.setState({
-//         number: 2,
-//         question: "What does 'petek' mean?",
-//         left: "Monday",
-//         center: "Wednesday",
-//         right: "Friday",
-//         correct: "right"
-//     })
-//     audio = new Audio(petek);
-//     audio.play();
-//     }
+// question 2
+    if ((this.state.number===1) && (randNum===0)) {
+      this.setState({
+        number: 2,
+        question: "What does 'osem' mean?",
+        left: "Eight",
+        center: "One",
+        right: "Three",
+        correct: "left"
+      })
+    audio = new Audio(osem);
+    audio.play();
+    }
+    if ((this.state.number===1) && (randNum===1)){
+      this.setState({
+        number: 2,
+        question: "What does 'osem' mean?",
+        left: "Three",
+        center: "Eight",
+        right: "One",
+        correct: "center"
+      })
+    audio = new Audio(osem);
+    audio.play();
+    }
+    if ((this.state.number===1) && (randNum===2)) {
+      this.setState({
+        number: 2,
+        question: "What does 'osem' mean?",
+        left: "One",
+        center: "Three",
+        right: "Eight",
+        correct: "right"
+    })
+    audio = new Audio(osem);
+    audio.play();
+    }
 
-// // question 3
-//     if ((this.state.number===2) && (randNum===0)) {
-//       this.setState({
-//         number: 3,
-//         question: "What does 'sobota' mean?",
-//         left: "Saturday",
-//         center: "Friday",
-//         right: "Sunday",
-//         correct: "left"
-//       })
-//     audio = new Audio(sobota);
-//     audio.play();
-//     }
-//     if ((this.state.number===2) && (randNum===1)){
-//       this.setState({
-//         number: 3,
-//         question: "What does 'sobota' mean?",
-//         left: "Sunday",
-//         center: "Saturday",
-//         right: "Friday",
-//         correct: "center"
-//       })
-//     audio = new Audio(sobota);
-//     audio.play();
-//     }
-//     if ((this.state.number===2) && (randNum===2)) {
-//       this.setState({
-//         number: 3,
-//         question: "What does 'sobota' mean?",
-//         left: "Friday",
-//         center: "Sunday",
-//         right: "Saturday",
-//         correct: "right"
-//     })
-//     audio = new Audio(sobota);
-//     audio.play();
-//     }
+// question 3
+    if ((this.state.number===2) && (randNum===0)) {
+      this.setState({
+        number: 3,
+        question: "What does 'pet' mean?",
+        left: "Five",
+        center: "Eight",
+        right: "Four",
+        correct: "left"
+      })
+    audio = new Audio(pet);
+    audio.play();
+    }
+    if ((this.state.number===2) && (randNum===1)){
+      this.setState({
+        number: 3,
+        question: "What does 'pet' mean?",
+        left: "Four",
+        center: "Five",
+        right: "Eight",
+        correct: "center"
+      })
+    audio = new Audio(pet);
+    audio.play();
+    }
+    if ((this.state.number===2) && (randNum===2)) {
+      this.setState({
+        number: 3,
+        question: "What does 'pet' mean?",
+        left: "Eight",
+        center: "Four",
+        right: "Five",
+        correct: "right"
+    })
+    audio = new Audio(pet);
+    audio.play();
+    }
 
-// // question 4
-//     if ((this.state.number===3) && (randNum===0)) {
-//       this.setState({
-//         number: 4,
-//         question: "What does 'torek' mean?",
-//         left: "Tuesday",
-//         center: "Wednesday",
-//         right: "Thursday",
-//         correct: "left"
-//       })
-//     audio = new Audio(torek);
-//     audio.play();
-//     }
-//     if ((this.state.number===3) && (randNum===1)){
-//       this.setState({
-//         number: 4,
-//         question: "What does 'torek' mean?",
-//         left: "Thursday",
-//         center: "Tuesday",
-//         right: "Wednesday",
-//         correct: "center"
-//       })
-//     audio = new Audio(torek);
-//     audio.play();
-//     }
-//     if ((this.state.number===3) && (randNum===2)) {
-//       this.setState({
-//         number: 4,
-//         question: "What does 'torek' mean?",
-//         left: "Wednesday",
-//         center: "Thursday",
-//         right: "Tuesday",
-//         correct: "right"
-//     })
-//     audio = new Audio(torek);
-//     audio.play();
-//     }
+// question 4
+    if ((this.state.number===3) && (randNum===0)) {
+      this.setState({
+        number: 4,
+        question: "What does 'sedem' mean?",
+        left: "Seven",
+        center: "Six",
+        right: "Five",
+        correct: "left"
+      })
+    audio = new Audio(sedem);
+    audio.play();
+    }
+    if ((this.state.number===3) && (randNum===1)){
+      this.setState({
+        number: 4,
+        question: "What does 'sedem' mean?",
+        left: "Five",
+        center: "Seven",
+        right: "Six",
+        correct: "center"
+      })
+    audio = new Audio(sedem);
+    audio.play();
+    }
+    if ((this.state.number===3) && (randNum===2)) {
+      this.setState({
+        number: 4,
+        question: "What does 'sedem' mean?",
+        left: "Six",
+        center: "Five",
+        right: "Seven",
+        correct: "right"
+    })
+    audio = new Audio(sedem);
+    audio.play();
+    }
 
-// // question 5
-//     if ((this.state.number===4) && (randNum===0)) {
-//       this.setState({
-//         number: 5,
-//         question: "What does 'četrtek' mean?",
-//         left: "Thursday",
-//         center: "Monday",
-//         right: "Tuesday",
-//         correct: "left"
-//       })
-//     audio = new Audio(cetrtek);
-//     audio.play();
-//     }
-//     if ((this.state.number===4) && (randNum===1)){
-//       this.setState({
-//         number: 5,
-//         question: "What does 'četrtek' mean?",
-//         left: "Tuesday",
-//         center: "Thursday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(cetrtek);
-//     audio.play();
-//     }
-//     if ((this.state.number===4) && (randNum===2)) {
-//       this.setState({
-//         number: 5,
-//         question: "What does 'četrtek' mean?",
-//         left: "Monday",
-//         center: "Tuesday",
-//         right: "Thursday",
-//         correct: "right"
-//     })
-//     audio = new Audio(cetrtek);
-//     audio.play();
-//     }
+// question 5
+    if ((this.state.number===4) && (randNum===0)) {
+      this.setState({
+        number: 5,
+        question: "What does 'ena' mean?",
+        left: "One",
+        center: "Two",
+        right: "Three",
+        correct: "left"
+      })
+    audio = new Audio(ena);
+    audio.play();
+    }
+    if ((this.state.number===4) && (randNum===1)){
+      this.setState({
+        number: 5,
+        question: "What does 'ena' mean?",
+        left: "Three",
+        center: "One",
+        right: "Two",
+        correct: "center"
+      })
+    audio = new Audio(ena);
+    audio.play();
+    }
+    if ((this.state.number===4) && (randNum===2)) {
+      this.setState({
+        number: 5,
+        question: "What does 'ena' mean?",
+        left: "Two",
+        center: "Three",
+        right: "One",
+        correct: "right"
+    })
+    audio = new Audio(ena);
+    audio.play();
+    }
 
-// // question 6
-//     if ((this.state.number===5) && (randNum===0)) {
-//       this.setState({
-//         number: 6,
-//         question: "What does 'sreda' mean?",
-//         left: "Wednesday",
-//         center: "Thursday",
-//         right: "Friday",
-//         correct: "left"
-//       })
-//     audio = new Audio(sreda);
-//     audio.play();
-//     }
-//     if ((this.state.number===5) && (randNum===1)){
-//       this.setState({
-//         number: 6,
-//         question: "What does 'sreda' mean?",
-//         left: "Friday",
-//         center: "Wednesday",
-//         right: "Thursday",
-//         correct: "center"
-//       })
-//     audio = new Audio(sreda);
-//     audio.play();
-//     }
-//     if ((this.state.number===5) && (randNum===2)) {
-//       this.setState({
-//         number: 6,
-//         question: "What does 'sreda' mean?",
-//         left: "Thursday",
-//         center: "Friday",
-//         right: "Wednesday",
-//         correct: "right"
-//     })
-//     audio = new Audio(sreda);
-//     audio.play();
-//     }
+// question 6
+    if ((this.state.number===5) && (randNum===0)) {
+      this.setState({
+        number: 6,
+        question: "What does 'devet' mean?",
+        left: "Nine",
+        center: "Ten",
+        right: "Two",
+        correct: "left"
+      })
+    audio = new Audio(devet);
+    audio.play();
+    }
+    if ((this.state.number===5) && (randNum===1)){
+      this.setState({
+        number: 6,
+        question: "What does 'devet' mean?",
+        left: "Two",
+        center: "Nine",
+        right: "Ten",
+        correct: "center"
+      })
+    audio = new Audio(devet);
+    audio.play();
+    }
+    if ((this.state.number===5) && (randNum===2)) {
+      this.setState({
+        number: 6,
+        question: "What does 'devet' mean?",
+        left: "Ten",
+        center: "Two",
+        right: "Nine",
+        correct: "devet"
+    })
+    audio = new Audio(devet);
+    audio.play();
+    }
 
-// // question 7
-//     if ((this.state.number===6) && (randNum===0)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Sunday",
-//         center: "Monday",
-//         right: "Saturday",
-//         correct: "left"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===1)){
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Saturday",
-//         center: "Sunday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===2)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Monday",
-//         center: "Saturday",
-//         right: "Sunday",
-//         correct: "right"
-//     })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
+// question 7
+    if ((this.state.number===6) && (randNum===0)) {
+      this.setState({
+        number: 7,
+        question: "What does 'dve' mean?",
+        left: "Two",
+        center: "Four",
+        right: "Nine",
+        correct: "left"
+      })
+    audio = new Audio(dve);
+    audio.play();
+    }
+    if ((this.state.number===6) && (randNum===1)){
+      this.setState({
+        number: 7,
+        question: "What does 'dve' mean?",
+        left: "Nine",
+        center: "Two",
+        right: "Four",
+        correct: "center"
+      })
+    audio = new Audio(dve);
+    audio.play();
+    }
+    if ((this.state.number===6) && (randNum===2)) {
+      this.setState({
+        number: 7,
+        question: "What does 'dve' mean?",
+        left: "Four",
+        center: "Nine",
+        right: "Two",
+        correct: "right"
+    })
+    audio = new Audio(dve);
+    audio.play();
+    }
 
-// // question 8
-//     if ((this.state.number===6) && (randNum===0)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Sunday",
-//         center: "Monday",
-//         right: "Saturday",
-//         correct: "left"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===1)){
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Saturday",
-//         center: "Sunday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===2)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Monday",
-//         center: "Saturday",
-//         right: "Sunday",
-//         correct: "right"
-//     })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
+// question 8
+    if ((this.state.number===7) && (randNum===0)) {
+      this.setState({
+        number: 8,
+        question: "What does 'deset' mean?",
+        left: "Ten",
+        center: "Nine",
+        right: "Two",
+        correct: "left"
+      })
+    audio = new Audio(deset);
+    audio.play();
+    }
+    if ((this.state.number===7) && (randNum===1)){
+      this.setState({
+        number: 8,
+        question: "What does 'deset' mean?",
+        left: "Two",
+        center: "Ten",
+        right: "Nine",
+        correct: "center"
+      })
+    audio = new Audio(deset);
+    audio.play();
+    }
+    if ((this.state.number===7) && (randNum===2)) {
+      this.setState({
+        number: 8,
+        question: "What does 'deset' mean?",
+        left: "Nine",
+        center: "Two",
+        right: "Ten",
+        correct: "right"
+    })
+    audio = new Audio(deset);
+    audio.play();
+    }
 
-// // question 9
-//     if ((this.state.number===6) && (randNum===0)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Sunday",
-//         center: "Monday",
-//         right: "Saturday",
-//         correct: "left"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===1)){
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Saturday",
-//         center: "Sunday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===2)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Monday",
-//         center: "Saturday",
-//         right: "Sunday",
-//         correct: "right"
-//     })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
+// question 9
+    if ((this.state.number===8) && (randNum===0)) {
+      this.setState({
+        number: 9,
+        question: "What does 'šest' mean?",
+        left: "Six",
+        center: "Seven",
+        right: "Four",
+        correct: "left"
+      })
+    audio = new Audio(sest);
+    audio.play();
+    }
+    if ((this.state.number===8) && (randNum===1)){
+      this.setState({
+        number: 9,
+        question: "What does 'šest' mean?",
+        left: "Four",
+        center: "Six",
+        right: "Seven",
+        correct: "center"
+      })
+    audio = new Audio(sest);
+    audio.play();
+    }
+    if ((this.state.number===8) && (randNum===2)) {
+      this.setState({
+        number: 9,
+        question: "What does 'šest' mean?",
+        left: "Seven",
+        center: "Four",
+        right: "Six",
+        correct: "right"
+    })
+    audio = new Audio(sest);
+    audio.play();
+    }
 
-// // question 10
-//     if ((this.state.number===6) && (randNum===0)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Sunday",
-//         center: "Monday",
-//         right: "Saturday",
-//         correct: "left"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===1)){
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Saturday",
-//         center: "Sunday",
-//         right: "Monday",
-//         correct: "center"
-//       })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
-//     if ((this.state.number===6) && (randNum===2)) {
-//       this.setState({
-//         number: 7,
-//         question: "What does 'nedelja' mean?",
-//         left: "Monday",
-//         center: "Saturday",
-//         right: "Sunday",
-//         correct: "right"
-//     })
-//     audio = new Audio(nedelja);
-//     audio.play();
-//     }
+// question 10
+    if ((this.state.number===9) && (randNum===0)) {
+      this.setState({
+        number: 10,
+        question: "What does 'štiri' mean?",
+        left: "Four",
+        center: "Five",
+        right: "Six",
+        correct: "left"
+      })
+    audio = new Audio(stiri);
+    audio.play();
+    }
+    if ((this.state.number===9) && (randNum===1)){
+      this.setState({
+        number: 10,
+        question: "What does 'štiri' mean?",
+        left: "Six",
+        center: "Four",
+        right: "Five",
+        correct: "center"
+      })
+    audio = new Audio(stiri);
+    audio.play();
+    }
+    if ((this.state.number===9) && (randNum===2)) {
+      this.setState({
+        number: 10,
+        question: "What does 'štiri' mean?",
+        left: "Five",
+        center: "Six",
+        right: "Four",
+        correct: "right"
+    })
+    audio = new Audio(stiri);
+    audio.play();
+    }
 
-    if (this.state.number===7) {
+    if (this.state.number===10) {
     this.setState({
       question: "Congratulations! You Finished Quiz Three!",
       left: " ",
@@ -486,7 +486,7 @@ class QuizFour extends Component {
 
           <h2>Quiz Four: Numbers</h2>
           <div className="quiz-four-question">
-            <h2>{this.state.number} of 7</h2>
+            <h2>{this.state.number} of 10</h2>
             <h3>{this.state.question}</h3>
           </div>
 

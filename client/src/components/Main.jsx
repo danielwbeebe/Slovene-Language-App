@@ -33,6 +33,7 @@ const Main = (props) => {
               <Link to="/quizone"><button className="quiz-entry"><h4>1</h4></button></Link>
               <Link to="/quiztwo"><button className="quiz-entry"><h4>2</h4></button></Link>
               <Link to="/quizthree"><button className="quiz-entry"><h4>3</h4></button></Link>
+              <Link to="/quizfour"><button className="quiz-entry"><h4>4</h4></button></Link>
             </div>
           </div>
 
