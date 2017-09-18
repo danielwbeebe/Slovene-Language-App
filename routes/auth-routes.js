@@ -35,5 +35,6 @@ authRouter.get('/logout', (req, res) => {
     res.redirect('/')
 });
 
+authRouter.put('/:id', usersController.update);
 
 module.exports = authRouter;

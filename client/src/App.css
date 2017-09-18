@@ -380,6 +380,19 @@ a:focus { text-decoration: none; color: inherit; }
   line-height: 60px;
 }
 
+.level-up-button {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #F88017;
+  border-radius: 15px;
+  color: white;
+}
+
+.level-up-button:hover {
+  color: #F88017;
+  background-color: white;
+}
+
 .main-lower-right {
   display: flex;
   flex-direction: column;

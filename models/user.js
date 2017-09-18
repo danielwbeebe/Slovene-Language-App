@@ -18,4 +18,13 @@ User.create = user =>{
     `, [user.username, user.email, user.password_digest, user.level]);
 };
 
+User.update = user =>{
+    return db.one(`
+        UPDATE users SET
+        level = level+1
+        WHERE id = $2
+        RETURNING *
+    `, [user.level, user.user_id]);
+};
+
 module.exports = User;

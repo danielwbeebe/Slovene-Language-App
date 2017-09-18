@@ -33,8 +33,8 @@ usersController.update = (req, res) => {
     User.update({
         user_id: req.body.user_id,
         // to change level
-        level: req.body.options.level,
-    }, req.params.id)
+        level: req.body.level,
+    })
     .then(card => {
         console.log(`Updated user level`)
     })

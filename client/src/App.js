@@ -30,6 +30,20 @@ class App extends Component {
     this.handleRedirect = this.handleRedirect.bind(this);
     this.logOut = this.logOut.bind(this);
     this.redirectTo = this.redirectTo.bind(this);
+    this.plusOne = this.plusOne.bind(this);
+  }
+
+  // Thanks and credit to Aury for helping with syntax for plusOne function
+
+  plusOne(e) {
+    console.log("im here");
+    e.preventDefault();
+    let user_id=this.state.id
+    let level=this.state.level
+    axios.put(`/auth/${user_id}`, {
+      user_id,
+      level,
+    }).catch(err => console.log(err));
   }
 
   handleLoginSubmit(e, username, password) {
@@ -108,7 +122,7 @@ class App extends Component {
           <Route exact path="/" render={() => <Welcome />} />
           <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit} />} />
           <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
-          <Route exact path="/main" render={() => <Main handleRedirect={this.handleRedirect} username={this.state.username} id={this.state.id} level={this.state.level} />} />
+          <Route exact path="/main" render={() => <Main plusOne={this.plusOne} handleRedirect={this.handleRedirect} username={this.state.username} id={this.state.id} level={this.state.level} />} />
           <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
           <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />
