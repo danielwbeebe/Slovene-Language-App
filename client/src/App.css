@@ -421,7 +421,7 @@ a:focus { text-decoration: none; color: inherit; }
 
 /*Quiz Pages*/
 
-.quiz-one-header, .quiz-two-header, .quiz-three-header {
+.quiz-one-header, .quiz-two-header, .quiz-three-header, .quiz-four-header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -435,17 +435,17 @@ a:focus { text-decoration: none; color: inherit; }
   text-decoration: none;
 }
 
-.quiz-one-message, .quiz-two-message, .quiz-three-message {
+.quiz-one-message, .quiz-two-message, .quiz-three-message, .quiz-four-message {
   background-color: #625391;
   color: white;
   text-decoration: none;
 }
 
-.quiz-one-message:hover, .quiz-two-message:hover, .quiz-three-message:hover, .register-message:hover, .login-message:hover {
+.quiz-one-message:hover, .quiz-two-message:hover, .quiz-three-message:hover, .quiz-four-message:hover, .register-message:hover, .login-message:hover {
   color: #F88017;
 }
 
-.quiz-one-main, .quiz-two-main, .quiz-three-main {
+.quiz-one-main, .quiz-two-main, .quiz-three-main, .quiz-four-main {
   display: flex;
   min-height: 80vh;
   flex-direction: column;
@@ -455,7 +455,7 @@ a:focus { text-decoration: none; color: inherit; }
   color: black;
 }
 
-.quiz-one-question, .quiz-two-question, .quiz-three-question {
+.quiz-one-question, .quiz-two-question, .quiz-three-question, .quiz-four-question {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -472,7 +472,7 @@ a:focus { text-decoration: none; color: inherit; }
   line-height: 50px;
 }
 
-.quiz-one-choices, .quiz-two-choices, .quiz-three-choices {
+.quiz-one-choices, .quiz-two-choices, .quiz-three-choices, .quiz-four-choices {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

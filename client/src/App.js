@@ -15,7 +15,7 @@ import Main from './components/Main';
 import QuizOne from './components/QuizOne';
 import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
-import QuizFour from './components/QuizTFour';
+import QuizFour from './components/QuizFour';
 
 class App extends Component {
 
