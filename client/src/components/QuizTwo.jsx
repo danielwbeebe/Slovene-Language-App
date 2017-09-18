@@ -404,7 +404,7 @@ class QuizTwo extends Component {
         </div>
 
         <div className="quiz-two-main">
-          <h2>Level Two: Greetings</h2>
+          <h2>Quiz Two: Greetings</h2>
           <div className="quiz-two-question">
             <h2>{this.state.number} of 8</h2>
             <h3>{this.state.question}</h3>

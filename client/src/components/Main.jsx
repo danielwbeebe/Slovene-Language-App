@@ -41,10 +41,10 @@ const Main = (props) => {
         <div className="main-right">
           <div className="main-upper-right">
             <div className="main-welcome-username">
-              <h2>Welcome, {props.username}</h2>
+              <h2>Welcome!</h2>
             </div>
             <div className="main-level">
-              <h3>You are user number {props.id}</h3>
+              <h3>{props.username}</h3>
             </div>
           </div>
           <div className="main-lower-right">

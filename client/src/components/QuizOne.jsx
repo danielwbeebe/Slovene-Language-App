@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 
 import ringSound from './audio/ring.wav';
 import knockSound from './audio/knock.wav';
@@ -480,7 +480,7 @@ class QuizOne extends Component {
         </div>
 
         <div className="quiz-one-main">
-          <h2>Level One: Biti ('to be')</h2>
+          <h2>Quiz One: Biti ('to be')</h2>
           <div className="quiz-one-question">
             <h2>{this.state.number} of 10</h2>
             <h3>{this.state.question}</h3>
