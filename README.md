@@ -26,7 +26,70 @@ Slovolingo is an app constructed using React and Express.js.
 
 ### Sample Code
 
-[TO BE ADDED]
+Here is the code from client/app.js to route through the app:
+
+      render() {
+        return (
+          <Router>
+            <div className="App">
+              <Route exact path="/" render={() => <Welcome />} />
+              <Route exact path="/register" render={() => <Register handleRegisterSubmit={this.handleRegisterSubmit} />} />
+              <Route exact path="/login" render={() => <Login handleLoginSubmit={this.handleLoginSubmit} />} />
+              <Route exact path="/main" render={() => <Main plusOne={this.plusOne} handleRedirect={this.handleRedirect} username={this.state.username} id={this.state.id} level={this.state.level} />} />
+              <Route exact path="/quizone" render={() => <QuizOne handleRedirect={this.handleRedirect} username={this.state.username} />} />
+              <Route exact path="/quiztwo" render={() => <QuizTwo handleRedirect={this.handleRedirect} username={this.state.username} />} />
+              <Route exact path="/quizthree" render={() => <QuizThree handleRedirect={this.handleRedirect} username={this.state.username} />} />
+              <Route exact path="/quizfour" render={() => <QuizFour handleRedirect={this.handleRedirect} username={this.state.username} />} />
+              {this.redirectTo()}
+            </div>
+          </Router>
+        );
+      }
+
+
+Here is the code from the QuizOne.jsx component to render the first quiz:
+
+
+        render(){
+            return (
+              <div className="quiz-one">
+                <div className="quiz-one-header">
+                  <h1 className="quiz-one-message"><Link to="/main">slovolingo</Link></h1>
+                  <h3>{this.props.username}</h3>
+                </div>
+
+                <div className="quiz-one-main">
+                  <h2>Quiz One: Biti ('to be')</h2>
+                  <div className="quiz-one-question">
+                    <h2>{this.state.number} of 10</h2>
+                    <h3>{this.state.question}</h3>
+                  </div>
+
+                  <div className="quiz-one-choices">
+                    <button onClick={this.clickLeft} className="quiz-answer"><h4>{this.state.left}</h4></button>
+                    <button onClick={this.clickCenter} className="quiz-answer"><h4>{this.state.center}</h4></button>
+                    <button onClick={this.clickRight} className="quiz-answer"><h4>{this.state.right}</h4></button>
+                  </div>
+                </div>
+
+                <div className="footer">
+                  <a href="https://github.com/danielwbeebe" target="_blank" rel="noopener noreferrer"><h2>Created By Dan Beebe</h2></a>
+                </div>
+              </div>
+            )
+          }
+
+Here is the code from the db/migrations/migration_09_11_2017.sql file to create the users table:
+
+DROP TABLE IF EXISTS users;
+
+        CREATE TABLE users(
+            id BIGSERIAL PRIMARY KEY,
+            username VARCHAR UNIQUE NOT NULL,
+            email VARCHAR UNIQUE NOT NULL,
+            password_digest TEXT NOT NULL,
+            level INT
+        );
 
 ## Making the App
 
