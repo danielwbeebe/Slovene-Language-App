@@ -8,6 +8,26 @@ Slovolingo is an app inspired by Duolingo which allows users to learn Slovene, t
 
 Slovolingo is deployed at: https://slovolingo.herokuapp.com/
 
-## Technology
+## Technical Discussion
 
 Slovolingo is an app constructed using React and Express.js.
+
+### Notes on App Structure
+
+[TO BE ADDED]
+
+### Sample Code
+
+[TO BE ADDED]
+
+## Making the App
+
+[TO BE ADDED]
+
+## Opportunities for Future Growth
+
+[TO BE ADDED]
+
+
+
+
