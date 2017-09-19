@@ -36,7 +36,7 @@ class App extends Component {
   // Thanks and credit to Aury for helping with syntax for plusOne function
 
   plusOne(e) {
-    console.log("im here");
+    // console.log("im here");
     e.preventDefault();
     let user_id=this.state.id
     let level=this.state.level
@@ -52,7 +52,7 @@ class App extends Component {
       username,
       password,
     }).then(res => {
-      console.log(res.data.user)
+      // console.log(res.data.user)
 
       this.setState({
         auth: res.data.auth,
@@ -69,10 +69,10 @@ class App extends Component {
       options
     })
     .then(res => {
-      console.log("Options:")
-      console.log(options)
-      console.log('Res Data:')
-      console.log(res.data)
+      // console.log("Options:")
+      // console.log(options)
+      // console.log('Res Data:')
+      // console.log(res.data)
       this.setState({
         auth: res.data.auth,
         user: res.data.user,
