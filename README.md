@@ -24,10 +24,6 @@ Slovolingo is deployed at: https://slovolingo.herokuapp.com/
 
 Slovolingo is an app constructed using React and Express.js.
 
-### Notes on App Structure
-
-[TO BE ADDED]
-
 ### Sample Code
 
 [TO BE ADDED]
