@@ -304,7 +304,7 @@ class QuizFour extends Component {
         left: "Ten",
         center: "Two",
         right: "Nine",
-        correct: "devet"
+        correct: "right"
     })
     audio = new Audio(devet);
     audio.play();
