@@ -81,7 +81,7 @@ Here is the code from the QuizOne.jsx component to render the first quiz:
 
 Here is the code from the db/migrations/migration_09_11_2017.sql file to create the users table:
 
-DROP TABLE IF EXISTS users;
+        DROP TABLE IF EXISTS users;
 
         CREATE TABLE users(
             id BIGSERIAL PRIMARY KEY,
@@ -91,13 +91,9 @@ DROP TABLE IF EXISTS users;
             level INT
         );
 
-## Making the App
-
-[TO BE ADDED]
-
 ## Opportunities for Future Growth
 
-[TO BE ADDED]
+In terms of future edits, I would like to add more quizzes and to create a more objective system of increasing the user's points by, for example, increasing the user's points each time a quiz is completed.
 
 
 
