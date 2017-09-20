@@ -44,6 +44,9 @@ class App extends Component {
       user_id,
       level,
     }).catch(err => console.log(err));
+    this.setState({
+        level: this.state.user.level,
+      });
   }
 
   handleLoginSubmit(e, username, password) {

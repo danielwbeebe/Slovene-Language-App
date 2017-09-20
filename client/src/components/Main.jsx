@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import Word from './Word';
 
 const Main = (props) => {
-  console.log(props)
 
   return (
     <div className="main-page">
@@ -53,6 +52,7 @@ const Main = (props) => {
 
             </div>
           </div>
+
           <div className="main-lower-right">
            <Word />
           </div>

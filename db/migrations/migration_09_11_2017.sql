@@ -1,4 +1,4 @@
--- \c slovene_dev;
+\c slovene_dev;
 
 DROP TABLE IF EXISTS users;
 
