@@ -17,6 +17,8 @@ import QuizTwo from './components/QuizTwo';
 import QuizThree from './components/QuizThree';
 import QuizFour from './components/QuizFour';
 
+import ringSound from './components/audio/ring.wav';
+
 class App extends Component {
 
   constructor(){
@@ -38,6 +40,7 @@ class App extends Component {
   plusOne(e) {
     // console.log("im here");
     e.preventDefault();
+    this.playRing();
     let user_id=this.state.id
     let level=this.state.level
     axios.put(`/auth/${user_id}`, {
@@ -46,7 +49,12 @@ class App extends Component {
     }).catch(err => console.log(err));
     this.setState({
         level: this.state.user.level,
-      });
+    });
+  }
+
+  playRing() {
+    var audio = new Audio(ringSound);
+    audio.play();
   }
 
   handleLoginSubmit(e, username, password) {
