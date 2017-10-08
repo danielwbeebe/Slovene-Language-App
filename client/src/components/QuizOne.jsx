@@ -472,6 +472,13 @@ class QuizOne extends Component {
   }
 
   render(){
+
+    if ((this.props.username === undefined) === true) {
+      return (
+      <Redirect to="/"/>
+      )
+    }
+
     return (
       <div className="quiz-one">
         <div className="quiz-one-header">
