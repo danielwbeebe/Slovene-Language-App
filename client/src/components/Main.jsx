@@ -1,9 +1,20 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {Component} from 'react';
+import {Link, Redirect} from 'react-router-dom';
 
 import Word from './Word';
 
-const Main = (props) => {
+class Main extends Component {
+  constructor(){
+    super();
+  }
+
+  render(){
+
+    if ((this.props.username === undefined) === true) {
+      return (
+      <Redirect to="/"/>
+      )
+    }
 
   return (
     <div className="main-page">
@@ -41,12 +52,12 @@ const Main = (props) => {
         <div className="main-right">
           <div className="main-upper-right">
             <div className="main-welcome-username">
-              <h2>Welcome, {props.username}</h2>
+              <h2>Welcome, {this.props.username}</h2>
             </div>
             <div className="main-level">
-              <h3>Points Earned: {props.level}</h3>
+              <h3>Points Earned: {this.props.level}</h3>
               <h4>Learn something today? Hit '+1' button once before you logout!</h4>
-              <form onSubmit={(e) => props.plusOne(e)}>
+              <form onSubmit={(e) => this.props.plusOne(e)}>
                 <input type="submit" value='+1' className="level-up-button"/>
               </form>
 
@@ -66,6 +77,8 @@ const Main = (props) => {
 
     </div>
   )
+}
+
 }
 
 export default Main;
